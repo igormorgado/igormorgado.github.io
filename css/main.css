@@ -17,12 +17,12 @@
 }
 @font-face {
 	font-family: "Computer Modern";
-	src: url('/fonts/otf/cmunti.ttf');
+	src: url('/fonts/cmunti.ttf');
 	font-style: italic, oblique;
 }
 @font-face {
 	font-family: "Computer Modern";
-	src: url('/fonts/otf/cmunbi.ttf');
+	src: url('/fonts/cmunbi.ttf');
 	font-weight: bold;
 	font-style: italic, oblique;
 }
@@ -118,6 +118,4 @@ ul.posts li {
 math, math[mode=display] {
   display: block;
   text-align: center;
-  font-family: CMSY10, CMEX10, Symbol, Times;
-  font-style: normal;
 }
