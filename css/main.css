@@ -46,6 +46,7 @@ h1 {
 
 div.text {
   text-align: justify;
+  hyphens: auto;
 }
 
 p {
