@@ -8,27 +8,27 @@
 
 @font-face {
 	font-family: "Computer Modern";
-	src: url('/fonts/otf/cmunss.otf');
+	src: url('/fonts/cmunrm.ttf');
 }
 @font-face {
 	font-family: "Computer Modern";
-	src: url('/fonts/otf/cmunsx.otf');
+	src: url('/fonts/cmunbx.ttf');
 	font-weight: bold;
 }
 @font-face {
 	font-family: "Computer Modern";
-	src: url('/fonts/otf/cmunsi.otf');
+	src: url('/fonts/otf/cmunti.ttf');
 	font-style: italic, oblique;
 }
 @font-face {
 	font-family: "Computer Modern";
-	src: url('/fonts/otf/cmunbxo.otf');
+	src: url('/fonts/otf/cmunbi.ttf');
 	font-weight: bold;
 	font-style: italic, oblique;
 }
 
 body {
-	font-family: "Computer Modern", sans-serif;
+	font-family: "Computer Modern", serif;
   margin: 60px auto;
   width: 70%;
   font-size:100%; 
@@ -37,7 +37,7 @@ body {
 
 h1 {
   font-size: 3em;
-	font-family: "Computer Modern", sans-serif;
+	font-family: "Computer Modern", serif;
 }
 
 div.text {
