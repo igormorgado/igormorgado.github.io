@@ -69,10 +69,25 @@ div.rightpicture {
 	margin: 10px;
 }
 
+
+div.rightpicture span {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
 div.leftpicture {
 	float: left;
 	margin: 10px;
 }
+
+
+div.leftpicture span {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
 
 blockquote.classic {
 	font-family: "Computer Modern", serif;
