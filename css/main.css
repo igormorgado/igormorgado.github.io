@@ -77,9 +77,9 @@ div.rightpicture img {
 }
 
 div.rightpicture span {
-  position: absolute;
+  position: relative;
   bottom: 10px;
-  left: 10px;
+  left: -100px;
 }
 
 div.leftpicture {
