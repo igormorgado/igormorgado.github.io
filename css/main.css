@@ -1,9 +1,44 @@
+* {
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border:0
+}
+
+@font-face {
+	font-family: "Computer Modern";
+	src: url('/fonts/otf/cmunss.otf');
+}
+@font-face {
+	font-family: "Computer Modern";
+	src: url('/fonts/otf/cmunsx.otf');
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Computer Modern";
+	src: url('/fonts/otf/cmunsi.otf');
+	font-style: italic, oblique;
+}
+@font-face {
+	font-family: "Computer Modern";
+	src: url('/fonts/otf/cmunbxo.otf');
+	font-weight: bold;
+	font-style: italic, oblique;
+}
+
 body {
+	font-family: "Computer Modern", sans-serif;
   margin: 60px auto;
   width: 70%;
+}  
+
+h1 {
+  font-size: 3em;
+	font-family: "Computer Modern", sans-serif;
 }
+
 nav ul, footer ul {
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
   padding: 0px;
   list-style: none;
   font-weight: bold;
@@ -19,11 +54,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-h1 {
-  font-size: 3em;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-
 p {
   font-size: 1.5em;
   line-height: 1.4em;
@@ -48,10 +78,14 @@ div.text {
   text-justify: inter-word;
 }
 
-p.citation {
-  margin: 10px;
-  text-align: justify;
-  text-justify: inter-word;
+div.rightpicture {
+	float: right;
+	margin: 10px;
+}
+
+div.leftpicture {
+	float: left;
+	margin: 10px;
 }
 
 blockquote.style1 {
