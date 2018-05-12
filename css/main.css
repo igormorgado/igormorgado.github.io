@@ -38,6 +38,33 @@ h1 {
 	font-family: "Computer Modern", sans-serif;
 }
 
+div.text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #333;
+}
+
+div.rightpicture {
+	float: right;
+	margin: 10px;
+}
+
+div.leftpicture {
+	float: left;
+	margin: 10px;
+}
+
+
+
+
+
+
+
 nav ul, footer ul {
   padding: 0px;
   list-style: none;
@@ -54,11 +81,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-p {
-  font-size: 1.5em;
-  line-height: 1.4em;
-  color: #333;
-}
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
@@ -71,21 +93,6 @@ ul.posts {
 
 ul.posts li {
   list-style: none;
-}
-
-div.text {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-div.rightpicture {
-	float: right;
-	margin: 10px;
-}
-
-div.leftpicture {
-	float: left;
-	margin: 10px;
 }
 
 blockquote.style1 {
