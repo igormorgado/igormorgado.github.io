@@ -74,6 +74,7 @@ blockquote.classic {
 	background-position: top left;
 	background-repeat: no-repeat;
   font-style: italic;
+  text-indent: 23px;
 }
 
 blockquote.classic span {
