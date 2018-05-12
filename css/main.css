@@ -69,6 +69,11 @@ div.rightpicture {
 	margin: 10px;
 }
 
+div.rightpicture img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 15%;
 
 div.rightpicture span {
   position: absolute;
