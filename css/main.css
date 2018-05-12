@@ -20,14 +20,14 @@
 @font-face {
 	font-family: "Computer Modern";
 	src: url('/fonts/cmunti.ttf');
-	font-style: italic, oblique;
+	font-style: italic;
 }
 
 @font-face {
 	font-family: "Computer Modern";
 	src: url('/fonts/cmunbi.ttf');
 	font-weight: bold;
-	font-style: italic, oblique;
+	font-style: italic;
 }
 
 body {
@@ -44,7 +44,6 @@ h1 {
 
 div.text {
   text-align: justify;
-  text-justify: inter-word;
 }
 
 p {
