@@ -74,7 +74,7 @@ blockquote.classic {
 	background-position: top left;
 	background-repeat: no-repeat;
   font-style: italic;
-  text-indent: 23px;
+  text-indent: 10px;
 }
 
 blockquote.classic span {
@@ -82,7 +82,6 @@ blockquote.classic span {
 	background-image: url(/images/closequote1.gif);
 	background-repeat: no-repeat;
 	background-position: bottom right;
-  font-style: italic;
 }
 
 nav ul, footer ul {
@@ -114,4 +113,11 @@ ul.posts {
 
 ul.posts li {
   list-style: none;
+}
+
+math, math[mode=display] {
+  display: block;
+  text-align: center;
+  font-family: CMSY10, CMEX10, Symbol, Times;
+  font-style: normal;
 }
