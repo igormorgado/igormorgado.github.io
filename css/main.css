@@ -108,7 +108,7 @@ dt {
   width: 130px;
   text-align: right;
   font-weight: bold;
-  color: #ddd;
+  color: #aaa;
 }
 
 dt::after {
@@ -118,6 +118,7 @@ dt::after {
 dd {
   margin: 0 0 0 130px;
   padding: 0 0 0.5em 0;
+  color: #333;
 }
 
 a {
