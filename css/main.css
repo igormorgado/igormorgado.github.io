@@ -78,8 +78,9 @@ div.rightpicture img {
 
 div.rightpicture span {
   position: relative;
-  bottom: 10px;
-  left: -100px;
+  bottom: -1em;
+  left: -50%;
+  text-align: center;
 }
 
 div.leftpicture {
