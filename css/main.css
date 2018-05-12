@@ -81,7 +81,6 @@ blockquote.classic span {
 
 
 
-/*
 
 nav ul, footer ul {
   padding: 0px;
@@ -92,6 +91,8 @@ nav ul li, footer ul li {
   display: inline;
   margin-right: 20px;
 }
+
+/*
 a {
   text-decoration: none;
   color: #999;
