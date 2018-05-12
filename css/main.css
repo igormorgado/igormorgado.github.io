@@ -53,6 +53,9 @@ p {
   text-indent: 30px;
 }
 
+div.bannerpicture {
+  margin-bottom: 10px;
+}
 
 div.rightpicture {
 	float: right;
@@ -99,7 +102,7 @@ nav ul li, footer ul li {
 dt {
   float: left;
   clear: left;
-  width: 100px;
+  width: 130px;
   text-align: right;
   font-weight: bold;
   color: #ddd;
