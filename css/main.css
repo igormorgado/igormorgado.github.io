@@ -77,6 +77,11 @@ p {
   text-indent: 30px;
 }
 
+p.author {
+  text-align: right;
+  text-indent: 30px;
+}
+
 div.bannerpicture {
   margin-bottom: 10px;
   overflow: hidden;
