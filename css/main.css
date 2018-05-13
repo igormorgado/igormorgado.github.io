@@ -86,12 +86,17 @@ p {
 }
 
 div.author {
-  float: clear;
+  margin-top: 0.2em;
+  margin-right: 30px;
 }
 
 p.author {
   text-align: right;
-  text-indent: 30px;
+  font-style: normal;
+}
+
+p.author::before {
+  content: "&ndash; ";
 }
 
 div.bannerpicture {
@@ -104,7 +109,7 @@ blockquote.classic {
 	font-family: "Computer Modern", serif;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 10px;
   padding-left: 15px;
   border-left: 3px solid #ccc;
 	background-image: url(/images/openquote1.gif);
@@ -112,7 +117,7 @@ blockquote.classic {
 	background-repeat: no-repeat;
   font-style: italic;
   text-indent: 10px;
-  display: flex;
+  display: grid;
 }
 
 blockquote.classic span {
