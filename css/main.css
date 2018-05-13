@@ -85,6 +85,10 @@ p {
   text-indent: 30px;
 }
 
+div.author {
+  float: clear;
+}
+
 p.author {
   text-align: right;
   text-indent: 30px;
