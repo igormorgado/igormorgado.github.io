@@ -89,6 +89,10 @@ p.paragraph {
   text-indent: 30px;
 }
 
+p.about {
+  margin: 20px 50px 30px;
+}
+
 div.author {
   margin-top: 0.2em;
   margin-right: 30px;
