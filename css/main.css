@@ -56,18 +56,19 @@ header p {
 figure.right {
 	float: right;
 	margin: 10px;
+  width: 30%;
 }
 
 figure.right img {
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 45%;
   padding: 5px;
-  width: 60%;
+  width: 100%;
 }
 
 figcaption {
   font-style: italic;
-  text-align: justify;
+  text-align: center;
 }
 
 
