@@ -39,9 +39,17 @@ body {
   background-color: whitesmoke;
 }  
 
-h1 {
-  font-size: 3em;
+header {
   margin-bottom: .5em;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1em;
+  color: #ccc;
 }
 
 
