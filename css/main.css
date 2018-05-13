@@ -44,6 +44,25 @@ h1 {
   margin-bottom: .5em;
 }
 
+
+figure.right {
+	float: right;
+	margin: 10px;
+}
+
+figure.right img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 60%;
+}
+
+figcaption {
+  text-style: italic;
+  text-align: justify;
+}
+
+
 div.text {
   text-align: justify;
   hyphens: auto;
@@ -63,38 +82,6 @@ div.bannerpicture {
   overflow: hidden;
   height: 300px;
 }
-
-div.rightpicture {
-	float: right;
-	margin: 10px;
-}
-
-div.rightpicture img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 60%;
-}
-
-div.rightpicture span {
-  position: relative;
-  bottom: -1em;
-  left: -50%;
-  text-align: center;
-}
-
-div.leftpicture {
-	float: left;
-	margin: 10px;
-}
-
-
-div.leftpicture span {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-
 
 blockquote.classic {
 	font-family: "Computer Modern", serif;
@@ -157,6 +144,7 @@ a:hover {
 }
 
 footer {
+  margin: 10px;
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
 }
