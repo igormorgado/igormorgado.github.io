@@ -66,7 +66,7 @@ figure.right img {
 }
 
 figcaption {
-  text-style: italic;
+  font-style: italic;
   text-align: justify;
 }
 
@@ -81,6 +81,9 @@ div.text {
 
 p {
   color: #333;
+}
+
+p.paragraph {
   margin-bottom: 1em;
   text-indent: 30px;
 }
@@ -88,15 +91,6 @@ p {
 div.author {
   margin-top: 0.2em;
   margin-right: 30px;
-}
-
-p.author {
-  text-align: right;
-  font-style: normal;
-}
-
-p.author::before {
-  content: "&ndash; ";
 }
 
 div.bannerpicture {
@@ -109,14 +103,16 @@ blockquote.classic {
 	font-family: "Computer Modern", serif;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 10px;
-  padding-left: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-left: 25px;
+  padding-right: 20px;
   border-left: 3px solid #ccc;
 	background-image: url(/images/openquote1.gif);
 	background-position: top left;
 	background-repeat: no-repeat;
   font-style: italic;
-  text-indent: 10px;
+  text-indent: unset;
   display: grid;
 }
 
@@ -125,6 +121,19 @@ blockquote.classic span {
 	background-image: url(/images/closequote1.gif);
 	background-repeat: no-repeat;
 	background-position: bottom right;
+}
+
+blockquote.classic p {
+  text-indent: unset;
+}
+
+blockquote.classic p.author {
+  text-align: right;
+  font-style: normal;
+}
+
+blockquote.classic p.author::before {
+  content: "- ";
 }
 
 nav ul, footer ul {
