@@ -303,16 +303,6 @@ table.vert tr {
   border-bottom: 1px solid #ccc;
 }
 
-table.vert tbody tr:nth-child(even)
-{
-  background-color: #eee;
-}
-
-table.vert tbody tr:nth-child(odd)
-{
-  background-color: #fff;
-}
-
 table.vert tbody tr:hover {
   background-color: #ccccff;
 }
