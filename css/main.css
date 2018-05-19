@@ -269,6 +269,7 @@ table.horiz caption {
 
 
 
+
 table.vert {
   text-align: center;
   margin: 20px;
@@ -303,7 +304,7 @@ table.vert tr {
   border-bottom: 1px solid #ccc;
 }
 
-table.vert tbody tr:hover {
+table.vert tbody td:hover {
   background-color: #ccccff;
 }
 
