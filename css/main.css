@@ -234,17 +234,17 @@ table.horiz tr {
   border-bottom: 1px solid #ccc;
 }
 
-table.horiz tr:nth-child(even)
+table.horiz tbody tr:nth-child(even)
 {
   background-color: #eee;
 }
 
-table.horiz tr:nth-child(odd)
+table.horiz tbody tr:nth-child(odd)
 {
   background-color: #fff;
 }
 
-table.horiz tr:hover {
+table.horiz tbody tr:hover {
   background-color: #ccffcc;
 }
 
