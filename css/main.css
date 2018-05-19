@@ -285,6 +285,8 @@ table.horiz tbody tr:hover {
 
 table.vert {
   border-collapse: separate;
+  vertical-align: baseline;
+  border-spacing: 20px;
 }
 
 
