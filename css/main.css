@@ -4,7 +4,7 @@ body {
   width: 70%; 
   font-size:100%; 
   line-height:1.2em;
-  background-color: whitesmoke;
+  background-color: var(--default-background);
   color: var(--default-foreground);
 }  
 
