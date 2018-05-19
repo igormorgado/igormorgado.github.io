@@ -202,35 +202,38 @@ math, math[mode=display] {
 }
 
 table.horiz {
-  /*
-  font-size: 12px;
-  background: #fff; 
-  */
   width: 70%;
   border-collapse: collapse;
-  text-align: left;
+  text-align: center;
   margin: 20px;
   margin-left: auto;
   margin-right: auto;
+  line-height: 2.5em;
+  vertical-align: middle;
   caption-side: bottom;
 }
 
 
 table.horiz th {
-    color: #555;
-    border-bottom: 2px solid #888;
     padding: 0px 10px;
 }
 
-table.horiz tfoot td {
-    color: #777;
-    border-bottom: 0px;
+table.horiz td {
     padding: 0px 10px;
+}
+
+table.horiz thead tr {
+    color: #555;
+    border-top: 2px double #888;
+    border-bottom: 2px solid #888;
+}
+
+table.horiz tfoot tr {
+    color: #555;
+    border-bottom: 2px solid #888;
 }
 
 table.horiz tr {
-  line-height: 2.5em;
-  vertical-align: middle;
   border-bottom: 1px solid #ccc;
 }
 
@@ -248,10 +251,15 @@ table.horiz tbody tr:hover {
   background-color: #ccccff;
 }
 
-table.horiz td {
-  padding: 0px 10px;
+table.horiz td.num {
+  text-align: right;
+}
+
+table.horiz td.txt {
+  text-align: left;
 }
 
 table.horiz caption {
   text-align: left;
+}
 
