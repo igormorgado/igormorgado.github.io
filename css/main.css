@@ -201,3 +201,11 @@ math, math[mode=display] {
   text-align: center;
 }
 
+table.horiz {
+  font-size: 12px;
+  background: #fff;
+  width: 480px;
+  border-collapse: collapse;
+  text-align: left;
+  margin: 20px;
+}
