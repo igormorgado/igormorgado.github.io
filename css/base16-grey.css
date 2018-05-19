@@ -1,0 +1,31 @@
+/* base 16 - base grey colors */
+:root
+{
+  --base00: #f5f5f5;
+  --base01: #e0e0e0;
+  --base02: #d0d0d0;
+  --base03: #b0b0b0;
+  --base04: #505050;
+  --base05: #303030;
+  --base06: #202020;
+  --base07: #151515;
+  --base08: #ac4142;
+  --base09: #d28445;
+  --base0a: #f4bf75;
+  --base0b: #90a959
+  --base0c: #75b5aa;
+  --base0d: #6a9fb5;
+  --base0e: #aa759f;
+  --base0f: #8f5536;
+
+  --default-background:   #f5f5f5;
+  --lighter-background:   #e0e0e0;
+  --selection-background: #d0d0d0;
+  --invisibles:           #b0b0b0;
+
+  --dark-foreground:      #505050;
+  --default-foreground:   #303030;
+  --light-foreground:     #202020;
+  --light-background:     #151515;
+}
+

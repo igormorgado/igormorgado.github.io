@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "Computer Modern";
+	src: url('/fonts/cmunrm.ttf');
+}
+
+@font-face {
+	font-family: "Computer Modern";
+	src: url('/fonts/cmunbx.ttf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Computer Modern";
+	src: url('/fonts/cmunti.ttf');
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Computer Modern";
+	src: url('/fonts/cmunbi.ttf');
+	font-weight: bold;
+	font-style: italic;
+}
+
