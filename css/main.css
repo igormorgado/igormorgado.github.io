@@ -71,6 +71,15 @@ div.bannerpicture {
   height: 300px;
 }
 
+a {
+  text-decoration: none;
+  color: var(--dark-foreground);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 blockquote.classic {
 	font-family: "Computer Modern", serif;
   margin-top: 10px;
@@ -116,12 +125,13 @@ nav {
 nav ul, footer ul {
   padding: 0px;
   list-style: none;
-  font-weight: bold;
 }
 
 nav ul li, footer ul li {
   display: inline;
   margin-right: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 dt {
@@ -142,17 +152,7 @@ dd {
   padding: 0 0 0.5em 0;
 }
 
-a {
-  text-decoration: none;
-  color: var(--dark-foreground);
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 footer {
-  margin: 10px;
   border-top: 1px solid var(--dark-foreground);
   font-size: .8em;
 }
