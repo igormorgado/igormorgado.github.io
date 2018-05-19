@@ -179,6 +179,7 @@ div.post  {
 div.post p {
     margin-bottom: 1em;
     text-indent: 30px;
+    text-align: justify;
 }
 
 math, math[mode=display] {
