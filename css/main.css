@@ -291,4 +291,7 @@ table.vert {
   vertical-align: baseline;
 }
 
+table.vert tfoot {
+  display: none;
+}
 
