@@ -15,6 +15,16 @@
   --base0d: #6699cc;
   --base0e: #cc99cc;
   --base0f: #d27b53;
+
+  --default-background:   var(--base00);
+  --lighter-background:   var(--base01);
+  --selection-background: var(--base02);
+  --invisibles:           var(--base03);
+
+  --dark-foreground:      var(--base04);
+  --default-foreground:   var(--base05);
+  --light-foreground:     var(--base06);
+  --light-background:     var(--base07);
 }
 
 .base00 { color: var(--base00); }
