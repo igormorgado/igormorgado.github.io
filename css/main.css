@@ -209,3 +209,21 @@ table.horiz {
   text-align: left;
   margin: 20px;
 }
+
+table.horiz th {
+    color: #999;
+    border-bottom: 2px solid #888;
+    padding: 10px 8px;
+}
+
+table.horiz tr {
+  border-bottom: 1px solid #ccc;
+}
+
+table.horiz tr.even {
+  background-color: #fff;
+}
+
+table.horiz tr.odd {
+  background-color: #ddd;
+}
