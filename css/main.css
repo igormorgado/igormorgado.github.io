@@ -212,11 +212,9 @@ table.horiz {
   margin: 20px;
   margin-left: auto;
   margin-right: auto;
+  caption-side: bottom;
 }
 
-table.horiz tr:hover {
-  background-color: #ccffcc;
-}
 
 table.horiz th {
     color: #555;
@@ -236,11 +234,17 @@ table.horiz tr {
   border-bottom: 1px solid #ccc;
 }
 
-table.horiz tr.even {
+table.horiz tr:hover {
+  background-color: #ccffcc;
+}
+
+table.horiz tr:nth-child(even)
+{
   background-color: #fff;
 }
 
-table.horiz tr.odd {
+table.horiz tr:nth-child(odd)
+{
   background-color: #eee;
 }
 
@@ -248,3 +252,7 @@ table.horiz td {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+table.horiz caption {
+  text-align: left;
+
