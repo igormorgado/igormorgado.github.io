@@ -202,21 +202,37 @@ math, math[mode=display] {
 }
 
 table.horiz {
+  /*
   font-size: 12px;
-  background: #fff;
-  width: 480px;
+  background: #fff; 
+  */
+  width: 70%;
   border-collapse: collapse;
   text-align: left;
   margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.horiz tr:hover {
+  background-color: #ccffcc;
 }
 
 table.horiz th {
-    color: #999;
+    color: #555;
     border-bottom: 2px solid #888;
-    padding: 10px 8px;
+    padding: 20px 10px;
+}
+
+table.horiz tfoot td {
+    color: #777;
+    border-bottom: 0px;
+    padding: 20px 10px;
 }
 
 table.horiz tr {
+  line-height: 2.5em;
+  vertical-align: middle;
   border-bottom: 1px solid #ccc;
 }
 
@@ -225,5 +241,10 @@ table.horiz tr.even {
 }
 
 table.horiz tr.odd {
-  background-color: #ddd;
+  background-color: #eee;
+}
+
+table.horiz td {
+  padding-left: 20px;
+  padding-right: 20px;
 }
