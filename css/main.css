@@ -202,7 +202,6 @@ math, math[mode=display] {
 }
 
 table.horiz {
-  width: 70%;
   border-collapse: collapse;
   text-align: center;
   margin: 20px;
@@ -264,6 +263,73 @@ table.horiz tbody th {
 }
 
 table.horiz caption {
+  text-align: justify;
+  line-height: 1.2em;
+}
+
+
+
+table.vert {
+  text-align: center;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2.5em;
+  vertical-align: middle;
+  caption-side: bottom;
+}
+
+
+table.vert th {
+    padding: 0px 10px;
+}
+
+table.vert td {
+    padding: 0px 10px;
+}
+
+table.vert thead tr {
+    color: #555;
+    border-top: 6px double #888;
+    border-bottom: 2px solid #888;
+}
+
+table.vert tfoot tr {
+    color: #555;
+    border-bottom: 2px solid #888;
+}
+
+table.vert tr {
+  border-bottom: 1px solid #ccc;
+}
+
+table.vert tbody tr:nth-child(even)
+{
+  background-color: #eee;
+}
+
+table.vert tbody tr:nth-child(odd)
+{
+  background-color: #fff;
+}
+
+table.vert tbody tr:hover {
+  background-color: #ccccff;
+}
+
+table.vert td.num {
+  text-align: right;
+}
+
+table.vert td.txt {
+  text-align: left;
+}
+
+table.vert tbody th {
+  text-align: right;
+}
+
+table.vert caption {
   text-align: justify;
   line-height: 1.2em;
 }
