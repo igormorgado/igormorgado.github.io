@@ -234,10 +234,6 @@ table.horiz tr {
   border-bottom: 1px solid #ccc;
 }
 
-table.horiz tr:hover {
-  background-color: #ccffcc;
-}
-
 table.horiz tr:nth-child(even)
 {
   background-color: #eee;
@@ -246,6 +242,10 @@ table.horiz tr:nth-child(even)
 table.horiz tr:nth-child(odd)
 {
   background-color: #fff;
+}
+
+table.horiz tr:hover {
+  background-color: #ccffcc;
 }
 
 table.horiz td {
