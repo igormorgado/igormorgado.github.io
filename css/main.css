@@ -1,19 +1,4 @@
-/* COLORS:
- * --default-background
- * --lighter-background
- * --selection-background
- * --invisibles
- * --dark-foreground
- * --default-foreground
- * --light-foreground
- * --light-background
- * 
- * Regular: #444
- * Dark accent: #111
- * Light accent: #999
- * Background accent: #f0f
- */
-
+/* base 16 - base grey colors */
 :root
 {
   --base00: #f5f5f5;
@@ -255,6 +240,7 @@ table {
   line-height: 2.0em;
   vertical-align: middle;
   caption-side: bottom;
+  color: var(--dark-foreground)
 }
 
 thead tr {
@@ -321,7 +307,7 @@ table.horiz td {
 
 table.horiz tbody tr:nth-child(even)
 {
-  background-color: var(--selection-background);
+  background-color: var(--default-background);
 }
 
 table.horiz tbody tr:nth-child(odd)
