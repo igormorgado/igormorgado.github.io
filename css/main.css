@@ -153,14 +153,14 @@ nav ul li, footer ul li {
 dt {
   float: left;
   clear: left;
-  width: 130px;
+  width: 7.5em;
   text-align: right;
   font-weight: bold;
   color: #aaa;
 }
 
 dt::after {
-  content: ":";
+  content: ": ";
 }
 
 dd {
@@ -216,12 +216,14 @@ thead tr {
 }
 
 thead th {
+    font-weight: bold;
     border-top: 6px double #888;
     border-bottom: 2px solid #888;
     padding: 0px 10px;
 }
 
 tfoot tr {
+    font-weight: bold;
     color: #555;
 }
 
