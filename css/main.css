@@ -171,6 +171,11 @@ blockquote.classic p.author::before {
   content: "- ";
 }
 
+nav {
+  border-bottom: 2px solid var(--invisibles);
+  margin-bottom: 1em;
+}
+
 nav ul, footer ul {
   padding: 0px;
   list-style: none;
