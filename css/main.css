@@ -237,6 +237,7 @@ tbody th {
 
 td {
   border-bottom: 1px solid #ccc;
+  padding: 0px 10px;
 }
 
 td.num {
@@ -288,7 +289,6 @@ table.horiz tbody tr:hover {
 table.vert {
   border-collapse: separate;
   vertical-align: baseline;
-  border-spacing: 20px 0px;
 }
 
 
