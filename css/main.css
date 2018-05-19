@@ -233,6 +233,7 @@ tfoot td {
 
 tbody th {
   border-bottom: 1px solid #ccc;
+  padding: 0px 10px;
 }
 
 td {
@@ -284,6 +285,7 @@ table.horiz tbody tr:nth-child(odd)
 table.horiz tbody tr:hover {
   background-color: #ccccff;
 }
+
 
 
 table.vert {
