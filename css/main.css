@@ -201,8 +201,8 @@ math, math[mode=display] {
   text-align: center;
 }
 
-table.horiz {
-  border-collapse: collapse;
+
+table {
   text-align: center;
   margin: 20px;
   margin-left: auto;
@@ -212,6 +212,44 @@ table.horiz {
   caption-side: bottom;
 }
 
+thead tr {
+    color: #555;
+    border-top: 6px double #888;
+    border-bottom: 2px solid #888;
+}
+
+tfoot tr {
+    color: #555;
+    border-bottom: 2px solid #888;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+
+td.num {
+  text-align: right;
+}
+
+td.txt {
+  text-align: left;
+}
+
+tbody th {
+  text-align: right;
+}
+
+caption {
+  text-align: justify;
+  line-height: 1.2em;
+}
+
+
+/* Horizonta table are horizontally connected and wider */
+table.horiz {
+  border-collapse: collapse;
+}
 
 table.horiz th {
     padding: 0px 30px;
@@ -219,21 +257,6 @@ table.horiz th {
 
 table.horiz td {
     padding: 0px 30px;
-}
-
-table.horiz thead tr {
-    color: #555;
-    border-top: 6px double #888;
-    border-bottom: 2px solid #888;
-}
-
-table.horiz tfoot tr {
-    color: #555;
-    border-bottom: 2px solid #888;
-}
-
-table.horiz tr {
-  border-bottom: 1px solid #ccc;
 }
 
 table.horiz tbody tr:nth-child(even)
@@ -250,78 +273,9 @@ table.horiz tbody tr:hover {
   background-color: #ccccff;
 }
 
-table.horiz td.num {
-  text-align: right;
-}
-
-table.horiz td.txt {
-  text-align: left;
-}
-
-table.horiz tbody th {
-  text-align: right;
-}
-
-table.horiz caption {
-  text-align: justify;
-  line-height: 1.2em;
-}
-
-
-
 
 table.vert {
-  text-align: center;
-  margin: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 2.5em;
-  vertical-align: middle;
-  caption-side: bottom;
+  border-collapse: separate;
 }
 
-
-table.vert th {
-    padding: 0px 10px;
-}
-
-table.vert td {
-    padding: 0px 10px;
-}
-
-table.vert thead tr {
-    color: #555;
-    border-top: 6px double #888;
-    border-bottom: 2px solid #888;
-}
-
-table.vert tfoot tr {
-    color: #555;
-    border-bottom: 2px solid #888;
-}
-
-table.vert tr {
-  border-bottom: 1px solid #ccc;
-}
-
-table.vert tbody td:hover {
-  background-color: #ccccff;
-}
-
-table.vert td.num {
-  text-align: right;
-}
-
-table.vert td.txt {
-  text-align: left;
-}
-
-table.vert tbody th {
-  text-align: right;
-}
-
-table.vert caption {
-  text-align: justify;
-  line-height: 1.2em;
-}
 
