@@ -1,7 +1,7 @@
 /* base 16 - base grey colors */
 :root
 {
-  --base00: #f5f5f5;
+  --base00: #f5f5f5; 
   --base01: #e0e0e0;
   --base02: #d0d0d0;
   --base03: #b0b0b0;
@@ -9,14 +9,14 @@
   --base05: #303030;
   --base06: #202020;
   --base07: #151515;
-  --base08: #ac4142;
-  --base09: #d28445;
-  --base0a: #f4bf75;
-  --base0b: #90a959
-  --base0c: #75b5aa;
-  --base0d: #6a9fb5;
-  --base0e: #aa759f;
-  --base0f: #8f5536;
+  --base08: #ac4142;  /* Variables  */
+  --base09: #d28445;  /* Integers   */
+  --base0a: #f4bf75;  /* Classes    */
+  --base0b: #90a959   /* Strings    */
+  --base0c: #75b5aa;  /* support    */
+  --base0d: #6a9fb5;  /* functions  */
+  --base0e: #aa759f;  /* keyword    */
+  --base0f: #8f5536;  /* deprecated */
 
   --default-background:   var(--base00);
   --lighter-background:   var(--base01);
