@@ -240,12 +240,12 @@ table.horiz tr:hover {
 
 table.horiz tr:nth-child(even)
 {
-  background-color: #fff;
+  background-color: #eee;
 }
 
 table.horiz tr:nth-child(odd)
 {
-  background-color: #eee;
+  background-color: #fff;
 }
 
 table.horiz td {
