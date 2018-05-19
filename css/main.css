@@ -245,7 +245,7 @@ table.horiz tbody tr:nth-child(odd)
 }
 
 table.horiz tbody tr:hover {
-  background-color: #ccffcc;
+  background-color: #ccccff;
 }
 
 table.horiz td {
