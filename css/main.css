@@ -32,8 +32,8 @@
 
 body {
 	font-family: "Computer Modern", serif;
-  margin: 2em auto;
-  /* width: 70%; */
+  margin: 60px auto;
+  width: 70%; 
   font-size:100%; 
   line-height:1.2em;
   background-color: whitesmoke;
