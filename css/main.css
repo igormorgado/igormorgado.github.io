@@ -37,6 +37,7 @@ body {
   font-size:100%; 
   line-height:1.2em;
   background-color: whitesmoke;
+  color: #333;
 }  
 
 header {
@@ -284,7 +285,7 @@ table.horiz tbody tr:nth-child(odd)
 }
 
 table.horiz tbody tr:hover {
-  background-color: #ccccff;
+  color: #111;
 }
 
 
