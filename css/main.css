@@ -216,7 +216,7 @@ thead tr {
     color: #555;
 }
 
-thead td {
+thead th {
     border-top: 6px double #888;
     border-bottom: 2px solid #888;
 }
@@ -227,6 +227,10 @@ tfoot tr {
 
 tfoot td {
     border-bottom: 2px solid #888;
+}
+
+tbody th {
+  border-bottom: 1px solid #ccc;
 }
 
 td {
