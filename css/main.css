@@ -259,7 +259,7 @@ caption {
 }
 
 
-/* Horizonta table are horizontally connected and wider */
+/* Horizontal table are horizontally connected and wider */
 table.horiz {
   border-collapse: collapse;
 }
@@ -287,11 +287,11 @@ table.horiz tbody tr:hover {
 }
 
 
-
+/* Vertical table */
 table.vert {
   border-collapse: separate;
   vertical-align: baseline;
-  border-spacing: 20px;
+  border-spacing: 20px 0px;
 }
 
 table.vert tfoot {
