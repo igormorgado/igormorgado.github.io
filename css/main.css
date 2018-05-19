@@ -286,7 +286,6 @@ table.horiz tbody tr:nth-child(odd)
 
 table.horiz tbody tr:hover {
   color: #000;
-  font-weight: bold;
 }
 
 
