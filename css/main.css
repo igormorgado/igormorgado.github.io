@@ -1,3 +1,49 @@
+/* COLORS:
+ * --default-background
+ * --lighter-background
+ * --selection-background
+ * --invisibles
+ * --dark-foreground
+ * --default-foreground
+ * --light-foreground
+ * --light-background
+ * 
+ * Regular: #444
+ * Dark accent: #111
+ * Light accent: #999
+ * Background accent: #f0f
+ */
+
+:root
+{
+  --base00: #f5f5f5;
+  --base01: #e0e0e0;
+  --base02: #d0d0d0;
+  --base03: #b0b0b0;
+  --base04: #505050;
+  --base05: #303030;
+  --base06: #202020;
+  --base07: #151515;
+  --base08: #ac4142;
+  --base09: #d28445;
+  --base0a: #f4bf75;
+  --base0b: #90a959
+  --base0c: #75b5aa;
+  --base0d: #6a9fb5;
+  --base0e: #aa759f;
+  --base0f: #8f5536;
+
+  --default-background:   #f5f5f5;
+  --lighter-background:   #e0e0e0;
+  --selection-background: #d0d0d0;
+  --invisibles:           #b0b0b0;
+
+  --dark-foreground:      #505050;
+  --default-foreground:   #303030;
+  --light-foreground:     #202020;
+  --light-background:     #151515;
+}
+
 * {
   padding:0;
   margin:0;
@@ -37,7 +83,7 @@ body {
   font-size:100%; 
   line-height:1.2em;
   background-color: whitesmoke;
-  color: #333;
+  color: var(--default-foreground);
 }  
 
 header {
@@ -51,7 +97,7 @@ header h1 {
 
 header p {
   font-size: 1em;
-  color: #666;
+  color: var(--dark-foreground);
 }
 
 
@@ -62,7 +108,7 @@ figure.right {
 }
 
 figure.right img {
-  border: 1px solid #ddd;
+  border: 1px solid var(--selection-background);
   border-radius: 45%;
   padding: 5px;
   width: 100%;
@@ -80,7 +126,7 @@ div.text {
 }
 
 p {
-  color: #333;
+  color: var(--default-foreground);
 }
 
 p.paragraph {
@@ -111,7 +157,7 @@ blockquote.classic {
   margin-right: 10px;
   padding-left: 25px;
   padding-right: 20px;
-  border-left: 3px solid #ccc;
+  border-left: 3px solid var(--invisibles);
 	background-image: url(/images/openquote1.gif);
 	background-position: top left;
 	background-repeat: no-repeat;
@@ -157,7 +203,7 @@ dt {
   width: 7.5em;
   text-align: right;
   font-weight: bold;
-  color: #aaa;
+  color: var(--dark-foreground);
 }
 
 dt::after {
@@ -167,12 +213,11 @@ dt::after {
 dd {
   margin: 0 0 0 130px;
   padding: 0 0 0.5em 0;
-  color: #333;
 }
 
 a {
   text-decoration: none;
-  color: #999;
+  color: var(--dark-foreground);
 }
 
 a:hover {
@@ -181,7 +226,7 @@ a:hover {
 
 footer {
   margin: 10px;
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid var(--dark-foreground);
   font-size: .8em;
 }
 
@@ -218,8 +263,8 @@ thead tr {
 
 thead th {
     font-weight: bold;
-    border-top: 6px double #888;
-    border-bottom: 2px solid #888;
+    border-top: 6px double var(--dark-foreground);
+    border-bottom: 2px solid var(--dark-foreground);
     padding: 0px 10px;
 }
 
@@ -229,17 +274,17 @@ tfoot tr {
 }
 
 tfoot td {
-    border-bottom: 2px solid #888;
+    border-bottom: 2px solid var(--dark-foreground);
     padding: 0px 10px;
 }
 
 tbody th {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--invisibles);
   padding: 0px 10px;
 }
 
 td {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--invisibles);
   padding: 0px 10px;
 }
 
@@ -276,16 +321,16 @@ table.horiz td {
 
 table.horiz tbody tr:nth-child(even)
 {
-  background-color: #eee;
+  background-color: var(--selection-background);
 }
 
 table.horiz tbody tr:nth-child(odd)
 {
-  background-color: #fff;
+  background-color: var(--lighter-background);
 }
 
 table.horiz tbody tr:hover {
-  color: #000;
+  color: var(--light-background);
 }
 
 
