@@ -161,10 +161,11 @@ footer {
 }
 
 pre.code {
-  border: 1px solid;
-  padding: 1em;
-  margin-bottom: 1em;
-  /* background-color: var(--lighter-background); */
+  border: 1px solid var(--lighter-background);
+  margin: 1em;
+  /*
+   *padding: 1em;
+   * background-color: var(--lighter-background); */
 }
 
 ul.posts { 
