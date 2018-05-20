@@ -164,6 +164,7 @@ pre.code {
   border: 1px solid;
   padding: 1em;
   margin-bottom: 1em;
+  background-color: var(--lighter-background);
 }
 
 ul.posts { 
