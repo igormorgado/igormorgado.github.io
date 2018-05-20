@@ -162,6 +162,7 @@ footer {
 
 pre.code {
   border: 1px solid;
+  padding: 1em;
 }
 
 ul.posts { 
