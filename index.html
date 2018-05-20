@@ -240,7 +240,9 @@ int main(int argc, char *argv[])
     wavefield *P = wavefield__create(model-&gt;nx, model-&gt;nz);
 
     /* Pre calculate  Laplacian parameters */
-    laplacian_params *lp = wavefield__laplacian_params(model, ap-&gt;order, simulation-&gt;dt);
+    laplacian_params *lp = wavefield__laplacian_params(model, 
+                                                       ap-&gt;order, 
+                                                       simulation-&gt;dt);
     
     /* Iterate timesteps */
     for(size_t it = 0; it &lt; simulation-&gt;steps; it++)
