@@ -160,6 +160,10 @@ footer {
   font-size: .8em;
 }
 
+pre.code {
+  border: 1px solid;
+}
+
 ul.posts { 
   margin: .5em auto 1em; 
   font-size: 1.5em;
