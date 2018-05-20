@@ -1,9 +1,9 @@
 body {
   font-family: "Computer Modern", serif;
-  margin: 60px auto;
+  margin: 1.5em auto;
   width: 70%; 
-  font-size:100%; 
-  line-height:1.2em;
+  font-size: 1em; 
+  line-height: 1.2em;
   background-color: var(--default-background);
   color: var(--default-foreground);
 }  
@@ -25,7 +25,7 @@ header p {
 
 figure.right {
 	float: right;
-	margin: 10px;
+	margin: .5em;
   width: 30%;
 }
 
@@ -51,9 +51,9 @@ p {
   color: var(--default-foreground);
 }
 
-p.paragraph {
+div.text p {
   margin-bottom: 1em;
-  text-indent: 30px;
+  text-indent: 1em;
   text-align: justify;
 }
 
@@ -63,7 +63,7 @@ p.about {
 
 div.author {
   margin-top: 0.2em;
-  margin-right: 30px;
+  margin-right: 1em;
 }
 
 div.bannerpicture {
@@ -84,12 +84,9 @@ a:hover {
 
 blockquote.classic {
 	font-family: "Computer Modern", serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  margin-right: 10px;
-  padding-left: 25px;
-  padding-right: 20px;
+  margin: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   border-left: 3px solid var(--invisibles);
 	background-image: url(/images/openquote1.gif);
 	background-position: top left;
@@ -97,6 +94,10 @@ blockquote.classic {
   font-style: italic;
   text-indent: unset;
   display: grid;
+}
+
+blockquote.classic p {
+  text-align: justify;
 }
 
 blockquote.classic span {
@@ -150,7 +151,7 @@ dt::after {
 }
 
 dd {
-  margin: 0 0 0 130px;
+  margin: 0 0 0 4em;;
   padding: 0 0 0.5em 0;
 }
 
@@ -160,7 +161,7 @@ footer {
 }
 
 ul.posts { 
-  margin: 20px auto 40px; 
+  margin: .5em auto 1em; 
   font-size: 1.5em;
   line-height: 2em;
 }
@@ -179,7 +180,7 @@ div.post  {
 
 div.post p {
     margin-bottom: 1em;
-    text-indent: 30px;
+    text-indent: 1em;
     text-align: justify;
 }
 
@@ -220,17 +221,17 @@ tfoot tr {
 
 tfoot td {
     border-bottom: 2px solid var(--dark-foreground);
-    padding: 0px 10px;
+    padding: 0px .25em;
 }
 
 tbody th {
   border-bottom: 1px solid var(--invisibles);
-  padding: 0px 10px;
+  padding: 0px .25em;
 }
 
 td {
   border-bottom: 1px solid var(--invisibles);
-  padding: 0px 10px;
+  padding: 0px .25em;
 }
 
 td.num {
@@ -257,11 +258,11 @@ table.horiz {
 }
 
 table.horiz th {
-    padding: 0px 30px;
+    padding: 0px 1em;
 }
 
 table.horiz td {
-    padding: 0px 30px;
+    padding: 0px 1em;
 }
 
 table.horiz tbody tr:nth-child(even)
@@ -283,7 +284,7 @@ table.horiz tbody tr:hover {
 table.vert {
   border-collapse: separate;
   vertical-align: baseline;
-  border-spacing: 20px 0px;
+  border-spacing: .5em 0px;
 }
 
 table.vert tfoot {
