@@ -15,7 +15,6 @@ body {
 h1 {
   font-size: 3em;
   line-height: 1em;
-  margin-bottom: .5em;
 }
 
 h2 {
@@ -403,11 +402,5 @@ p.meta {
 
 div.post  {
   margin: 10px 0px;
-}
-
-div.post p {
-    margin-bottom: 1em;
-    text-indent: 1em;
-    text-align: justify;
 }
 
