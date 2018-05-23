@@ -126,7 +126,7 @@ table {
   line-height: 2.0em;
   vertical-align: middle;
   caption-side: bottom;
-  color: var(--dark-foreground)
+  color: var(--dark-foreground);
   border-collapse: collapse;
 }
 
