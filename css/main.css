@@ -219,7 +219,7 @@ thead th {
     font-weight: bold;
     border-top: 6px double var(--dark-foreground);
     border-bottom: 2px solid var(--dark-foreground);
-    padding: 0px 10px;
+    padding: 0px .25em;
 }
 
 tfoot tr {
@@ -292,7 +292,19 @@ table.horiz tbody tr:hover {
 table.vert {
   border-collapse: separate;
   vertical-align: baseline;
-  border-spacing: .5em 0px;
+  border-spacing: 1em 0px;
+}
+
+table.vert thead th {
+    padding: 0px .5em;
+}
+
+table.vert tbody th {
+  padding: 0px .5em;
+}
+
+table.vert td {
+  padding: 0px .5em;
 }
 
 table.vert tfoot {
