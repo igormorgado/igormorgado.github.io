@@ -1,3 +1,7 @@
+/***************************************************
+ * General styles
+ ***************************************************/
+
 body {
   font-family: "Computer Modern", serif;
   margin: 1.5em auto;
@@ -8,69 +12,40 @@ body {
   color: var(--default-foreground);
 }  
 
-header {
+h1 {
+  font-size: 3em;
+  line-height: 1em;
   margin-bottom: .5em;
 }
 
-header h1 {
-  font-size: 3em;
+h2 {
+  font-size: 2.5em;
   line-height: 1em;
+  margin-bottom: .5em;
 }
 
-header p {
+h3 {
+  font-size: 2em;
+  line-height: 1em;
+  margin-bottom: .5em;
+}
+
+h4 {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-bottom: .5em;
+}
+
+h5 {
   font-size: 1em;
-  color: var(--dark-foreground);
+  line-height: 1em;
+  margin-bottom: .5em;
 }
 
-
-figure.right {
-	float: right;
-	margin: .5em;
-  width: 30%;
-}
-
-figure.right img {
-  border: 1px solid var(--selection-background);
-  border-radius: 45%;
-  padding: 5px;
-  width: 100%;
-}
-
-figcaption {
+h6 {
+  font-size: 1em;
   font-style: italic;
-  text-align: center;
-}
-
-
-div.text {
-  text-align: justify;
-  hyphens: auto;
-}
-
-p {
-  color: var(--default-foreground);
-}
-
-div.text p {
-  margin-bottom: 1em;
-  text-indent: 1em;
-  text-align: justify;
-}
-
-p.about {
-  margin: 20px 50px 30px;
-}
-
-div.author {
-  margin-top: 0.2em;
-  margin-right: 1em;
-}
-
-div.bannerpicture {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  overflow: hidden;
-  height: 300px;
+  line-height: 1em;
 }
 
 a {
@@ -82,7 +57,11 @@ a:hover {
   text-decoration: underline;
 }
 
-blockquote.classic {
+p {
+  color: var(--default-foreground);
+}
+
+blockquote {
 	font-family: "Computer Modern", serif;
   margin: 1em;
   padding-left: 1.5em;
@@ -96,45 +75,16 @@ blockquote.classic {
   display: grid;
 }
 
-blockquote.classic p {
+blockquote p {
   text-align: justify;
+  text-indent: unset;
 }
 
-blockquote.classic span {
+blockquote span {
 	display: block;
 	background-image: url(/images/closequote1.gif);
 	background-repeat: no-repeat;
 	background-position: bottom right;
-}
-
-blockquote.classic p {
-  text-indent: unset;
-}
-
-blockquote.classic p.author {
-  text-align: right;
-  font-style: normal;
-}
-
-blockquote.classic p.author::before {
-  content: "- ";
-}
-
-nav {
-  border-bottom: 2px solid var(--invisibles);
-  margin-bottom: 1em;
-}
-
-nav ul, footer ul {
-  padding: 0px;
-  list-style: none;
-}
-
-nav ul li, footer ul li {
-  display: inline;
-  margin-right: 0.5em;
-  font-weight: bold;
-  font-size: 1.5em;
 }
 
 dt {
@@ -155,41 +105,9 @@ dd {
   padding: 0 0 0.5em 0;
 }
 
-footer {
-  border-top: 1px solid var(--dark-foreground);
-  font-size: .8em;
-}
-
-pre.code {
+pre {
   border: 1px solid var(--lighter-background);
   margin: 1em;
-  /*
-   *padding: 1em;
-   * background-color: var(--lighter-background); */
-}
-
-ul.posts { 
-  margin: .5em auto 1em; 
-  font-size: 1.5em;
-  line-height: 2em;
-}
-
-ul.posts li {
-  list-style: none;
-}
-
-p.meta {
-  padding: 10px 0px;
-}
-
-div.post  {
-  margin: 10px 0px;
-}
-
-div.post p {
-    margin-bottom: 1em;
-    text-indent: 1em;
-    text-align: justify;
 }
 
 math, math[mode=display] {
@@ -198,7 +116,6 @@ math, math[mode=display] {
   display: block;
   text-align: center;
 }
-
 
 table {
   text-align: center;
@@ -209,6 +126,7 @@ table {
   vertical-align: middle;
   caption-side: bottom;
   color: var(--dark-foreground)
+  border-collapse: collapse;
 }
 
 thead tr {
@@ -219,7 +137,7 @@ thead th {
     font-weight: bold;
     border-top: 6px double var(--dark-foreground);
     border-bottom: 2px solid var(--dark-foreground);
-    padding: 0px .25em;
+    padding: 0px 1em;
 }
 
 tfoot tr {
@@ -229,25 +147,17 @@ tfoot tr {
 
 tfoot td {
     border-bottom: 2px solid var(--dark-foreground);
-    padding: 0px .25em;
+    padding: 0px 1em;
 }
 
 tbody th {
   border-bottom: 1px solid var(--invisibles);
-  padding: 0px .25em;
+  padding: 0px 1em;
 }
 
 td {
   border-bottom: 1px solid var(--invisibles);
-  padding: 0px .25em;
-}
-
-td.num {
-  text-align: right;
-}
-
-td.txt {
-  text-align: left;
+  padding: 0px 1em;
 }
 
 tbody th {
@@ -257,6 +167,71 @@ tbody th {
 caption {
   text-align: justify;
   line-height: 1.2em;
+}
+
+table tbody tr:nth-child(even)
+{
+  background-color: var(--default-background);
+}
+
+table tbody tr:nth-child(odd)
+{
+  background-color: var(--lighter-background);
+}
+
+table tbody tr:hover {
+  color: var(--light-background);
+}
+
+
+/*************************************************** 
+ * Navigation and footer
+ ***************************************************/
+nav {
+  border-bottom: 2px solid var(--invisibles);
+  margin-bottom: 1em;
+}
+
+nav ul, footer ul {
+  padding: 0px;
+  list-style: none;
+}
+
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 0.5em;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+footer {
+  border-top: 1px solid var(--dark-foreground);
+  font-size: .8em;
+}
+
+/***************************************************
+ * main layout style 
+ ***************************************************/
+header {
+  margin-bottom: .5em;
+}
+
+header h1 {
+  margin-bottom: 0em;
+}
+
+header p {
+  font-size: 1em;
+  color: var(--dark-foreground);
+}
+
+
+td.num {
+  text-align: right;
+}
+
+td.txt {
+  text-align: left;
 }
 
 
@@ -287,12 +262,15 @@ table.horiz tbody tr:hover {
   color: var(--light-background);
 }
 
-
 /* Vertical table */
 table.vert {
   border-collapse: separate;
   vertical-align: baseline;
   border-spacing: 1em 0px;
+}
+
+table.vert tbody tr {
+  background-color: var(--default-background);
 }
 
 table.vert thead th {
@@ -309,5 +287,124 @@ table.vert td {
 
 table.vert tfoot {
   display: none;
+}
+
+
+figure.right {
+	float: right;
+	margin: .5em;
+  width: 30%;
+}
+
+figure.right img {
+  border: 1px solid var(--selection-background);
+  border-radius: 45%;
+  padding: 5px;
+  width: 100%;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+
+div.text {
+  text-align: justify;
+  hyphens: auto;
+}
+
+div.text p {
+  margin-bottom: 1em;
+  text-indent: 1em;
+  text-align: justify;
+}
+
+p.about {
+  margin: 20px 50px 30px;
+}
+
+div.author {
+  margin-top: 0.2em;
+  margin-right: 1em;
+}
+
+div.bannerpicture {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  height: 300px;
+}
+
+blockquote.classic {
+	font-family: "Computer Modern", serif;
+  margin: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-left: 3px solid var(--invisibles);
+	background-image: url(/images/openquote1.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+  font-style: italic;
+  text-indent: unset;
+  display: grid;
+}
+
+blockquote.classic p {
+  text-align: justify;
+  text-indent: unset;
+}
+
+blockquote.classic span {
+	display: block;
+	background-image: url(/images/closequote1.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+blockquote.classic p.author {
+  text-align: right;
+  font-style: normal;
+}
+
+blockquote.classic p.author::before {
+  content: "- ";
+}
+
+
+/***************************************************
+ * Posts and blog
+ ***************************************************/
+
+/* Post style */
+/* div.post
+ * div.post h1
+ * div.post h*
+ * div.post p
+ * div.post blockquote
+ */ 
+
+ul.posts { 
+  margin: .5em auto 1em; 
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+ul.posts li {
+  list-style: none;
+}
+
+p.meta {
+  padding: 10px 0px;
+}
+
+div.post  {
+  margin: 10px 0px;
+}
+
+div.post p {
+    margin-bottom: 1em;
+    text-indent: 1em;
+    text-align: justify;
 }
 
