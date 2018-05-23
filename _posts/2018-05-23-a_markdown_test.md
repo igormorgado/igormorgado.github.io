@@ -49,7 +49,9 @@ turpis.
 
 ## Another section
 
-To show our friend ![Pierre de Fermat](https://upload.wikimedia.org/wikipedia/commons/f/f3/Pierre_de_Fermat.jpg).
+![Pierre de Fermat](https://upload.wikimedia.org/wikipedia/commons/f/f3/Pierre_de_Fermat.jpg)
+
+To show our friend  Pierre de Fermat. 
 Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan 
 dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur 
 non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 
