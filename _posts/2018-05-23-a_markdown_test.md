@@ -4,7 +4,7 @@ title: "A markdown test"
 date: 2018-05-23
 ---
 
-# Introduction
+## Introduction
 
 This is a *simple* webpage to create all **HTML** tags for markdown. It will 
 be used as a sandbox to write a **_CSS_** that matches the one used in 
@@ -16,7 +16,7 @@ be used as a sandbox to write a **_CSS_** that matches the one used in
 > cujus rei demonstrationem mirabilem sane detexi. Hanc marginis 
 > exiguitas non caperet.
 
-## A sub title
+### A sub title
 
 Here I will add some ipsum lorem text as a filler.  Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit. Mauris nec lobortis urna, sit amet mattis neque. 
@@ -31,7 +31,7 @@ dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur
 non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 
 amet malesuada magna ultrices sed.
 
-### A subsub title
+#### A subsub title
 
 Aliquam fringilla augue in blandit viverra. Sed posuere sollicitudin velit, sed 
 fringilla sapien varius ac. Duis tincidunt ultricies tincidunt. Sed semper mi 
@@ -47,7 +47,7 @@ turpis.
 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 
 012345789 012345789 012345789 012345789 012345789 012345789 
 
-# Another section
+## Another section
 
 To show our friend ![Pierre de Fermat](https://upload.wikimedia.org/wikipedia/commons/f/f3/Pierre_de_Fermat.jpg).
 Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan 
@@ -72,7 +72,7 @@ And a unumbered one:
 * Item 3
 
 
-## Tables are important too
+### Tables are important too
 
 Here we will see the same table shown in the main page
 
@@ -85,7 +85,7 @@ Here we will see the same table shown in the main page
 |  5  | Group 5 | 145    |
 |  6  | Group 6 | 10.2   |
 
-# Some code
+## Some code
 
 Also we need to display some code as:
 
