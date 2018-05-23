@@ -59,6 +59,9 @@ a:hover {
 
 p {
   color: var(--default-foreground);
+  margin-bottom: 1em;
+  text-indent: 1em;
+  text-align: justify;
 }
 
 blockquote {
