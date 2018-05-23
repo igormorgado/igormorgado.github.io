@@ -26,6 +26,12 @@ ligula sapien, eu maximus sem imperdiet vitae. Duis tristique, mauris pretium
 auctor rhoncus, erat metus efficitur enim, eu porta dolor nunc id lorem. 
 Praesent congue mi metus, ac interdum enim hendrerit sit amet. 
 
+Maybe try to show some math:
+
+\begin{align}
+x^n + y^n = z^n
+\end{align}
+
 Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan 
 dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur 
 non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 
