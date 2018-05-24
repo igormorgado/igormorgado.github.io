@@ -88,18 +88,18 @@ blockquote span {
 	background-position: bottom right;
 }
 
-ul, ul li {
+ul {
   list-style-type: disc;
   list-style-position: inside;
 }
 
-ol, ol li {
+ol {
   list-style-type: decimal;
   list-style-position: inside;
 }
 
 ol li p, ul li p {
-  color: red;
+  display: unset;
 }
 
 dt {
