@@ -417,6 +417,9 @@ blockquote.classic p.author::before {
 pre.code code ol {
   list-style-position: unset;
   margin-left: unset;
+  margin-bottom: unset;
+  padding-left: unset;
+  text-align: unset;
 }
 
 /***************************************************
