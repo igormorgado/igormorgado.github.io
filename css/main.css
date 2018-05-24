@@ -88,6 +88,14 @@ blockquote span {
 	background-position: bottom right;
 }
 
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
 dt {
   float: left;
   clear: left;
