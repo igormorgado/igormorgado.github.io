@@ -82,6 +82,7 @@ blockquote {
   font-style: italic;
   text-indent: unset;
   display: grid;
+  max-width: 39em;
 }
 
 blockquote p {
