@@ -415,11 +415,11 @@ blockquote.classic p.author::before {
 }
 
 pre.code code ol {
-  list-style-position: unset;
-  margin-left: unset;
-  margin-bottom: unset;
-  padding-left: unset;
-  text-align: unset;
+  list-style-position: none;
+  margin-left: none;
+  margin-bottom: none;
+  padding-left: none;
+  text-align: none;
 }
 
 /***************************************************
