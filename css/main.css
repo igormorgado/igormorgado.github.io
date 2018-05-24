@@ -421,6 +421,11 @@ pre.code code ol {
   padding: 0;
 }
 
+pre.code code ol li {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 /***************************************************
  * Posts and blog
  ***************************************************/
