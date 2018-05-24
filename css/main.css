@@ -228,6 +228,7 @@ nav ul, footer ul {
   padding: 0px;
   list-style: none;
   margin-left: 0em;
+  margin-bottom: 0em;
 }
 
 nav ul li, footer ul li {
