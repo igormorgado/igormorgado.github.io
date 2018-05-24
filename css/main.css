@@ -90,13 +90,13 @@ blockquote span {
 
 ol, ul {
   margin-bottom: 1em;
+  margin-left: 1em;
 }
 
 ul li {
   list-style-type: disc;
   list-style-position: outside;
   margin-bottom: .5em;
-  margin-left: 1em;
   padding-left: .5em;
   text-align: justify;
 }
@@ -105,7 +105,6 @@ ol li {
   list-style-type: decimal;
   list-style-position: outside;
   margin-bottom: .5em;
-  margin-left: 1em;
   padding-left: .5em;
   text-align: justify;
 }
@@ -221,6 +220,7 @@ nav {
 nav ul, footer ul {
   padding: 0px;
   list-style: none;
+  margin-left: 0em;
 }
 
 nav ul li, footer ul li {
