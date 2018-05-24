@@ -96,14 +96,14 @@ ul li {
   list-style-type: disc;
   list-style-position: inside;
   margin-bottom: .5em;
-  padding-right: 1em;
+  padding-left: 1em;
 }
 
 ol li {
   list-style-type: decimal;
   list-style-position: inside;
   margin-bottom: .5em;
-  padding-right: 1em;
+  padding-left: 1em;
 }
 
 ol li p, ul li p {
@@ -338,7 +338,7 @@ div.text {
 
 div.text p {
   margin-bottom: 1em;
-  text-indent: 2em;
+  text-indent: 3em;
   text-align: justify;
 }
 
