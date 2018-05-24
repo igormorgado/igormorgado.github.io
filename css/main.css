@@ -98,20 +98,19 @@ ol {
 
 dt {
   float: left;
-  clear: left;
-  width: 7.5em;
   text-align: right;
   font-weight: bold;
   color: var(--dark-foreground);
 }
 
 dt::after {
-  content: ": ";
+  content: ":";
+  padding-right: .5em;
 }
 
 dd {
-  margin: 0 0 0 8em;;
-  padding: 0 0 0.5em 0;
+  padding-left: 1em;
+  padding-bottom: 1em;
 }
 
 pre {
