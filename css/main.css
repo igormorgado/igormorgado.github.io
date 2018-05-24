@@ -56,6 +56,10 @@ a:hover {
   text-decoration: underline;
 }
 
+a:visited {
+  color: var(--base0d);
+}
+
 p {
   color: var(--default-foreground);
   margin-bottom: 1em;
