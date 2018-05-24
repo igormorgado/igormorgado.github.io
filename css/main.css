@@ -88,14 +88,20 @@ blockquote span {
 	background-position: bottom right;
 }
 
+ol, ul {
+  margin-bottom: 1em;
+}
+
 ul li {
   list-style-type: disc;
   list-style-position: inside;
+  margin-bottom: .5em;
 }
 
 ol li {
   list-style-type: decimal;
   list-style-position: inside;
+  margin-bottom: .5em;
 }
 
 ol li p, ul li p {
