@@ -59,7 +59,7 @@ a:hover {
 p {
   color: var(--default-foreground);
   margin-bottom: 1em;
-  text-indent: 2em;
+  text-indent: 3em;
   text-align: justify;
 }
 
