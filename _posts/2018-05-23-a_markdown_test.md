@@ -2,6 +2,7 @@
 layout: post
 title: "A markdown test"
 date: 2018-05-23
+author: "Igor Morgado"
 ---
 
 ## Introduction

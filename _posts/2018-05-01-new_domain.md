@@ -2,6 +2,7 @@
 layout: post
 title: "New domain"
 date: 2018-05-01
+author: "Igor Morgado"
 ---
 
 Now I have a brand new and funny domain name **fer.mat.br**, so amazing in
