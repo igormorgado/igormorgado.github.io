@@ -94,16 +94,20 @@ ol, ul {
 
 ul li {
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
   margin-bottom: .5em;
-  padding-left: 1em;
+  margin-left: 1em;
+  padding-left: .5em;
+  text-align: justify;
 }
 
 ol li {
   list-style-type: decimal;
-  list-style-position: inside;
+  list-style-position: outside;
   margin-bottom: .5em;
-  padding-left: 1em;
+  margin-left: 1em;
+  padding-left: .5em;
+  text-align: justify;
 }
 
 ol li p, ul li p {
