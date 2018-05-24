@@ -67,6 +67,7 @@ p {
   margin-bottom: 1em;
   text-indent: 3em;
   text-align: justify;
+  hyphens: auto;
 }
 
 blockquote {
@@ -92,6 +93,20 @@ blockquote span {
 	background-image: url(/images/closequote1.gif);
 	background-repeat: no-repeat;
 	background-position: bottom right;
+}
+
+div.author {
+  margin-top: 0.2em;
+  margin-right: 1em;
+}
+
+blockquote p.author {
+  text-align: right;
+  font-style: normal;
+}
+
+blockquote p.author::before {
+  content: "- ";
 }
 
 ol, ul {
@@ -130,13 +145,6 @@ dt {
   color: var(--dark-foreground);
   padding-right: .5em;
 }
-
-/*
-dt::after {
-   content: ":"; 
-  padding-right: 1em;
-}
-*/
 
 dd {
   padding-left: 2em;
@@ -362,24 +370,8 @@ figcaption {
 }
 
 
-div.text {
-  text-align: justify;
-  hyphens: auto;
-}
-
-div.text p {
-  margin-bottom: 1em;
-  text-indent: 3em;
-  text-align: justify;
-}
-
 p.about {
   margin: 20px 50px 30px;
-}
-
-div.author {
-  margin-top: 0.2em;
-  margin-right: 1em;
 }
 
 div.bannerpicture {
