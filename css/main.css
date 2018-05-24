@@ -122,12 +122,15 @@ dt {
   text-align: left;
   font-weight: bold;
   color: var(--dark-foreground);
+  padding-right: .5em;
 }
 
+/*
 dt::after {
-  /* content: ":"; */
+   content: ":"; 
   padding-right: 1em;
 }
+*/
 
 dd {
   padding-left: 2em;
