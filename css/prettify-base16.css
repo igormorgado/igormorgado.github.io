@@ -1,7 +1,7 @@
 /* desert scheme ported from vim to google prettify */
 pre.prettyprint { display: block; background-color: var(--default-background) }
 pre .nocode { background-color: none; color: var(--default-foreground) }
-pre .com { color: var(--base03) } /* comment - skyblue */
+pre .com { color: var(--base04) } /* comment - skyblue */
 pre .pun { color: var(--default-foreground) }    /* punctuation */
 pre .pln { color: var(--default-foreground) }    /* plaintext */
 pre .tag { color: var(--base08); font-weight: bold } /* html/xml tag    - lightyellow */
