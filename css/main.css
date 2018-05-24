@@ -385,6 +385,9 @@ blockquote.classic p.author::before {
   content: "- ";
 }
 
+pre.code code ol {
+  list-style-position: outside;
+}
 
 /***************************************************
  * Posts and blog
