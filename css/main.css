@@ -119,18 +119,18 @@ ol li p, ul li p {
 
 dt {
   float: left;
-  text-align: right;
+  text-align: left;
   font-weight: bold;
   color: var(--dark-foreground);
 }
 
 dt::after {
-  content: ":";
-  padding-right: .5em;
+  /* content: ":"; */
+  padding-right: 1em;
 }
 
 dd {
-  padding-left: 1em;
+  padding-left: 2em;
   padding-bottom: 1em;
 }
 
