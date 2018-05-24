@@ -14,10 +14,10 @@ pre .kwd { color: var(--base0e); font-weight: bold } /* keyword */
 pre .lit { color: var(--base0f); } /* literal - darkred */
 
 /* Specify class=linenums on a pre to get line numbering */
-ol.linenums { margin-top: 0; margin-bottom: 0; color: var(--base02) } /* IE indents via margin-left */
-li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
+ol.linenums { margin-top: 0; margin-bottom: 0; color: var(--base02); } /* IE indents via margin-left */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none; color: var(--base01 }
 /* Alternate shading for lines */
-li.L1,li.L3,li.L5,li.L7,li.L9 { }
+li.L1,li.L3,li.L5,li.L7,li.L9 { color: var(--base02); }
 
 @media print {
   pre.prettyprint { background-color: none }
