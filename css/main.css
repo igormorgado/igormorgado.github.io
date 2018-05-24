@@ -89,12 +89,12 @@ blockquote span {
 }
 
 ul {
-  list-style: disc;
+  list-style: disc inside none;
   list-style-type: disc;
 }
 
 ol {
-  list-style: decimal;
+  list-style: decimal inside none;
   list-style-type: decimal;
 }
 
