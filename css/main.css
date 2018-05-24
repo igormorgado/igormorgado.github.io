@@ -98,6 +98,10 @@ ol, ol li {
   list-style-position: inside;
 }
 
+ol li p, ul li p {
+  color: red;
+}
+
 dt {
   float: left;
   text-align: right;
