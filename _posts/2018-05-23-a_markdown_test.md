@@ -10,6 +10,35 @@ This is a *simple* webpage to create all **HTML** tags for markdown. It will
 be used as a sandbox to write a **_CSS_** that matches the one used in 
 [main layout](/index.html).
 
+And a numbered list
+
+1. One. Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan 
+dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur 
+non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 
+amet malesuada magna ultrices sed.
+
+2. Two Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan 
+dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur 
+non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 
+amet malesuada magna ultrices sed.
+
+3. Three.
+
+And a unumbered one:
+
+* Item 1 Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan 
+dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur 
+non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 
+amet malesuada magna ultrices sed.
+
+* Item 2 Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan 
+dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur 
+non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 
+amet malesuada magna ultrices sed.
+
+* Item 3
+
+
 > Cubum autem in duos cubos, aut quadratoquadratum in duos 
 > quadratosquadratos, et generaliter nullam in infinitum ultra 
 > quadratum potestatem in duos ejusdem nominis fas est dividere: 
@@ -62,34 +91,6 @@ Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan
 dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur 
 non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 
 amet malesuada magna ultrices sed.
-
-And a numbered list
-
-1. One. Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan 
-dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur 
-non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 
-amet malesuada magna ultrices sed.
-
-2. Two Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan 
-dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur 
-non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 
-amet malesuada magna ultrices sed.
-
-3. Three.
-
-And a unumbered one:
-
-* Item 1 Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan 
-dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur 
-non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 
-amet malesuada magna ultrices sed.
-
-* Item 2 Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan 
-dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur 
-non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 
-amet malesuada magna ultrices sed.
-
-* Item 3
 
 
 ### Tables are important too
