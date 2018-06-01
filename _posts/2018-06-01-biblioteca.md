@@ -5,12 +5,11 @@ date: 2018-06-01
 author: "Jorge Luis Borges"
 ---
 
-![Babel](/images/babel06.jpg)
+![A Biblioteca de Babel](/images/biblioteca_babel.jpg)
 
 O UNIVERSO (que outros chamam a Biblioteca) compõe-se de um número indefinido, e talvez infinito, de galerias hexagonais, com vastos poços de ventilação no centro, cercados por balaustradas baixíssimas. De qualquer hexágono, vêem-se os andares inferiores e superiores: interminavelmente.
 
 A distribuição das galerias é invariável. Vinte prateleiras, em cinco longas estantes de cada lado, cobrem todos os lados menos dois; sua altura, que é a dos andares, excede apenas a de um bibliotecário normal.
-
 
 Uma das faces livres dá para um estreito vestíbulo, que desemboca em outra galeria, idêntica à primeira e a todas. À esquerda e à direita do vestíbulo, há dois sanitários minúsculos. Um permite dormir em pé; outro, satisfazer as necessidades físicas. Por aí passa a escada espiral, que se abisma e se eleva ao infinito.
 
@@ -24,6 +23,8 @@ Os idealistas argúem que as salas hexagonais são uma forma necessária do espa
 
 A cada um dos muros de cada hexágono correspondem cinco estantes; cada estante encerra trinta e dois livros de formato uniforme; cada livro é de quatrocentas e dez páginas; cada página, de quarenta linhas; cada linha, de umas oitenta letras de cor preta.
 
+
+![Babel](/images/babel06.jpg)
 
 Também há letras no dorso de cada livro; essas letras não indicam ou prefiguram o que dirão as páginas. Sei que essa inconexão, certa vez, pareceu misteriosa. Antes de resumir a solução (cuja descoberta, apesar de suas trágicas projeções, é talvez o fato capital da história), quero rememorar alguns axiomas.
 
@@ -39,11 +40,12 @@ Já se sabe: para uma linha razoável com uma correta informação, há léguas 
 
 Durante muito tempo, acreditou-se que esses livros impenetráveis correspondiam a línguas pretéritas ou remotas. É verdade que os homens mais antigos, os primeiros bibliotecários, usavam uma linguagem assaz diferente da que falamos agora; é verdade que algumas milhas à direita a língua é dialetal e que noventa andares mais acima é incompreensível.
 
-![babel-dante-salatino-2008](/images/babel-dante-salatino-2008)
-
 Tudo isso, repito-o, é verdade, mas quatrocentas e dez páginas de inalteráveis M C V não podem corresponder a nenhum idioma, por dialetal ou rudimentar que seja. Uns insinuaram que cada letra podia influir na subsequente e que o valor de M C V na terceira linha da página 71 não era o que pode ter a mesma série noutra posição de outra página, mas essa vaga tese não prosperou. Outros pensaram em criptografias; universalmente essa conjectura foi aceite, ainda que não no sentido em que a formularam seus inventores.
 
+![babel-dante-salatino-2008](/images/babel-dante-salatino-2008.jpg)
+
 Há quinhentos anos, o chefe de um hexágono superior deparou com um livro tão confuso quanto os outros, porém que possuía quase duas folhas de linhas homogêneas. Mostrou o seu achado a um decifrador ambulante, que lhe disse que estavam redigidas em português; outros lhe afirmaram que em iídiche. Antes de um século pôde ser estabelecido o idioma: um dialeto samoiedo-lituano do guarani, com inflexões de árabe clássico.
+
 
 Também decifrou-se o conteúdo: noções de análise combinatória, ilustradas por exemplos de variantes com repetição ilimitada. Esses exemplos permitiram que um bibliotecário de gênio descobrisse a lei fundamental da Biblioteca. Esse pensador observou que todos os livros, por diversos que sejam, constam de elementos iguais: o espaço, o ponto, a vírgula as vinte e duas letras do alfabeto.
 
@@ -59,9 +61,9 @@ Esses peregrinos disputavam nos corredores estreitos, proferiam obscuras maldiç
 
 Também se esperou então o esclarecimento dos mistérios básicos da humanidade: a origem da Biblioteca e do tempo. É verosímil que esses graves mistérios possam explicar-se em palavras: se não bastar a linguagem dos filósofos, a multiforme Biblioteca produzirá o idioma inaudito que se requer e os vocabulários e gramáticas desse idioma. Faz já quatro séculos que os homens esgotam os hexágonos…
 
-Existem investigadores oficiais, inquisidores. Eu os vi no desempenho de sua função: chegam sempre estafados; falam de uma escada sem degraus que quase os matou; falam de galerias e de escadas com o bibliotecário; ás vezes, pegam o livro mais próximo e o folheiam, á procura de palavras infames. Visivelmente, ninguém espera descobrir nada.
-
 ![Erik Desmazires.La salle des plantes (The hall of planets)](/images/erik-desmazires-la-salle-des-plantes-the-hall-of-planets.jpg)
+
+Existem investigadores oficiais, inquisidores. Eu os vi no desempenho de sua função: chegam sempre estafados; falam de uma escada sem degraus que quase os matou; falam de galerias e de escadas com o bibliotecário; ás vezes, pegam o livro mais próximo e o folheiam, á procura de palavras infames. Visivelmente, ninguém espera descobrir nada.
 
 A desmedida esperança, sucedeu, como e natural, uma depressão excessiva. A certeza de que alguma prateleira em algum hexágono encerrava livros preciosos e de que esses livros preciosos eram inacessíveis afigurou-se quase intolerável. Uma seita blasfema sugeriu que cessassem as buscas e que todos os homens misturassem letras e símbolos, até construir, mediante um improvável dom do acaso, esses livros canônicos.
 
@@ -75,11 +77,11 @@ Também sabemos de outra superstição daquele tempo: a do Homem do Livro. Em al
 
 Na linguagem desta área persistem ainda vestígios do culto desse funcionário remoto. Muitos peregrinaram á procura d’Ele. Durante um século trilharam em vão os mais diversos rumos. Como localizar o venerado hexágono secreto que o hospedava? alguém propôs um método regressivo: Para localizar o livro A, consultar previamente um livro B, que indique o lugar de A; para localizar o livro B, consultar previamente um livro C, e assim até o infinito…
 
+![biblioteca-de-babel-2](/images/biblioteca-de-babel-2.jpg)
+
 Em aventuras como essas, prodigalizei e consumi meus anos. Não me parece inverosímil que em alguma prateleira do Universo haja um livro total; rogo aos deuses ignorados que um homem – um só, ainda que seja há mil anos! – o tenha examinado e lido. Se a honra e a sabedoria e a felicidade não estão para mim, que sejam para outros. Que o céu exista, embora meu lugar seja o inferno. Que eu seja ultrajado e aniquilado, mas que num instante, num ser, Tua enorme Biblioteca Se justifique.
 
 Afirmam os ímpios que o disparate é normal na Biblioteca e que o razoável (e mesmo a humilde e pura coerência) é quase milagrosa exceção. Falam (eu o sei) de “a Biblioteca febril, cujos fortuitos volumes correm o incessante risco de transformar-se em outros e que tudo afirmam, negam e confundem como uma divindade que delira”.
-
-![biblioteca-de-babel-2](/images/biblioteca-de-babel-2)
 
 Essas palavras, que não apenas denunciam a desordem mas que também a exemplificam, provam, evidentemente, seu gosto péssimo e sua desesperada ignorância. De fato, a Biblioteca inclui todas as estruturas verbais, todas as variantes que permitem os vinte e cinco símbolos ortográficos, porém nem um único disparate absoluto. Inútil observar que o melhor volume dos muitos hexágonos que administro intitula-se Trono Penteado, e outro A Cãibra de Gesso e outro Axaxaxas mlö.
 
@@ -92,5 +94,7 @@ A escrita metódica distrai-me da presente condição dos homens. A certeza de q
 As epidemias, as discórdias heréticas, as peregrinações que inevitavelmente degeneram em bandoleirismo, dizimaram a população. Acredito ter mencionado os suicídios, cada ano mais frequentes. Talvez me enganem a velhice e o temor, mas suspeito que a espécie humana – a única – está por extinguir-se e que a Biblioteca perdurará: iluminada, solitária, infinita, perfeitamente imóvel, armada de volumes preciosos, inútil, incorruptível, secreta.
 
 Acabo de escrever infinita. Não interpolei esse adjetivo por costume retórico; digo que não é ilógico pensar que o mundo é infinito. Aqueles que o julgam limitado postulam que em lugares remotos os corredores e escadas e hexágonos podem inconcebivelmente cessar – o que é absurdo. Aqueles que o imaginam sem limites esquecem que os abrange o número possível de livros.
+
+![biblioteca-de-babel-3](/images/biblioteca-de-babel-3.jpg)
 
 Atrevo-me a insinuar esta solução do antigo problema: A Biblioteca é ilimitada e periódica. Se um eterno viajante a atravessasse em qualquer direção, comprovaria ao fim dos séculos que os mesmos volumes se repetem na mesma desordem (que, reiterada, seria uma ordem: a Ordem). Minha solidão alegra-se com essa elegante esperança.
