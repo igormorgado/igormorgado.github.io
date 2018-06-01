@@ -21,10 +21,9 @@ Morto, não faltarão mãos piedosas que me joguem pela balaustrada; minha sepul
 
 Os idealistas argúem que as salas hexagonais são uma forma necessária do espaço absoluto ou, pelo menos, de nossa intuição do espaço. Alegam que é inconcebível uma sala triangular ou pentagonal. (os místicos pretendem que o êxtase lhes revele uma câmara circular com um grande livro circular de lombada contínua, que siga toda a volta das paredes; mas seu testemunho é suspeito; suas palavras, obscuras. Esse livro cíclico é Deus). Basta-me, por hora, repetir o preceito clássico: “A Biblioteca é uma esfera cujo centro cabal é qualquer hexágono, cuja circunferência é inacessível”.
 
-A cada um dos muros de cada hexágono correspondem cinco estantes; cada estante encerra trinta e dois livros de formato uniforme; cada livro é de quatrocentas e dez páginas; cada página, de quarenta linhas; cada linha, de umas oitenta letras de cor preta.
-
-
 ![Babel](/images/babel06.jpg)
+
+A cada um dos muros de cada hexágono correspondem cinco estantes; cada estante encerra trinta e dois livros de formato uniforme; cada livro é de quatrocentas e dez páginas; cada página, de quarenta linhas; cada linha, de umas oitenta letras de cor preta.
 
 Também há letras no dorso de cada livro; essas letras não indicam ou prefiguram o que dirão as páginas. Sei que essa inconexão, certa vez, pareceu misteriosa. Antes de resumir a solução (cuja descoberta, apesar de suas trágicas projeções, é talvez o fato capital da história), quero rememorar alguns axiomas.
 
@@ -38,14 +37,13 @@ Um, que meu pai viu em um hexágono do circuito quinze noventa e quatro, constav
 
 Já se sabe: para uma linha razoável com uma correta informação, há léguas de insensatas cacofonias, de confusões verbais e de incoerências. (Sei de uma região montanhosa cujos bibliotecários repudiam o supersticioso e vão costume de procurar sentido nos livros e o equiparam ao de procurá-lo nos sonhos ou nas linhas caóticas da mão… Admitem que os inventores da escrita imitaram os vinte e cinco símbolos naturais, mas sustentam que essa aplicação é casual, e que os livros em si nada significam. Esse ditame, já veremos, não é completamente falaz).
 
+![babel-dante-salatino-2008](/images/babel-dante-salatino-2008.jpg)
+
 Durante muito tempo, acreditou-se que esses livros impenetráveis correspondiam a línguas pretéritas ou remotas. É verdade que os homens mais antigos, os primeiros bibliotecários, usavam uma linguagem assaz diferente da que falamos agora; é verdade que algumas milhas à direita a língua é dialetal e que noventa andares mais acima é incompreensível.
 
 Tudo isso, repito-o, é verdade, mas quatrocentas e dez páginas de inalteráveis M C V não podem corresponder a nenhum idioma, por dialetal ou rudimentar que seja. Uns insinuaram que cada letra podia influir na subsequente e que o valor de M C V na terceira linha da página 71 não era o que pode ter a mesma série noutra posição de outra página, mas essa vaga tese não prosperou. Outros pensaram em criptografias; universalmente essa conjectura foi aceite, ainda que não no sentido em que a formularam seus inventores.
 
-![babel-dante-salatino-2008](/images/babel-dante-salatino-2008.jpg)
-
 Há quinhentos anos, o chefe de um hexágono superior deparou com um livro tão confuso quanto os outros, porém que possuía quase duas folhas de linhas homogêneas. Mostrou o seu achado a um decifrador ambulante, que lhe disse que estavam redigidas em português; outros lhe afirmaram que em iídiche. Antes de um século pôde ser estabelecido o idioma: um dialeto samoiedo-lituano do guarani, com inflexões de árabe clássico.
-
 
 Também decifrou-se o conteúdo: noções de análise combinatória, ilustradas por exemplos de variantes com repetição ilimitada. Esses exemplos permitiram que um bibliotecário de gênio descobrisse a lei fundamental da Biblioteca. Esse pensador observou que todos os livros, por diversos que sejam, constam de elementos iguais: o espaço, o ponto, a vírgula as vinte e duas letras do alfabeto.
 
@@ -55,13 +53,13 @@ Tudo: a história minuciosa do futuro, as autobiografias dos arcanjos, o catálo
 
 Quando se proclamou que a Biblioteca abarcava todos os livros, a primeira impressão foi de extravagante felicidade. Todos os homens sentiram-se senhores de um tesouro intacto e secreto. Não havia problema pessoal ou mundial cuja eloquente solução não existisse: em algum hexágono. o Universo estava justificado, o Universo bruscamente usurpou as dimensões ilimitadas da esperança.
 
+![Erik Desmazires.La salle des plantes (The hall of planets)](/images/erik-desmazires-la-salle-des-plantes-the-hall-of-planets.jpg)
+
 Naquele tempo falou-se muito das Vindicações: livros de apologia e de profecia, que para sempre vindicavam os actos de cada homem do Universo e guardavam arcanos prodigiosos para seu futuro. Milhares de cobiçosos abandonaram o doce hexágono natal e precipitaram-se escadas acima, premidos pelo vão propósito de encontrar sua Vindicação.
 
 Esses peregrinos disputavam nos corredores estreitos, proferiam obscuras maldições, estrangulavam-se nas escadas divinas, jogavam os livros enganosos no fundo dos túneis, morriam despenhados pelos homens de regiões remotas. Outros enlouqueceram… As Vindicações existem (vi duas que se referem a pessoas do futuro, a pessoas talvez não imaginarias) mas os que procuravam não recordavam que a possibilidade de que um homem encontre a sua, ou alguma pérfida variante da sua, é computável em zero.
 
 Também se esperou então o esclarecimento dos mistérios básicos da humanidade: a origem da Biblioteca e do tempo. É verosímil que esses graves mistérios possam explicar-se em palavras: se não bastar a linguagem dos filósofos, a multiforme Biblioteca produzirá o idioma inaudito que se requer e os vocabulários e gramáticas desse idioma. Faz já quatro séculos que os homens esgotam os hexágonos…
-
-![Erik Desmazires.La salle des plantes (The hall of planets)](/images/erik-desmazires-la-salle-des-plantes-the-hall-of-planets.jpg)
 
 Existem investigadores oficiais, inquisidores. Eu os vi no desempenho de sua função: chegam sempre estafados; falam de uma escada sem degraus que quase os matou; falam de galerias e de escadas com o bibliotecário; ás vezes, pegam o livro mais próximo e o folheiam, á procura de palavras infames. Visivelmente, ninguém espera descobrir nada.
 
@@ -71,13 +69,13 @@ As autoridades viram-se obrigadas a promulgar ordens severas. A seita desaparece
 
 Outros, inversamente, acreditaram que o primordial era eliminar as obras inúteis. Invadiam os hexágonos, exibiam credenciais nem sempre falsas, folheavam com fastio um volume e condenavam prateleiras inteiras: a seu furor higiênico, ascético, deve-se a insensata perda de milhões de livros. Seu nome é execrado, mas aqueles que deploram os “tesouros” destruídos por seu frenesi negligenciam dois fatos notórios.
 
+![biblioteca-de-babel-2](/images/biblioteca-de-babel-2.jpg)
+
 Um: a Biblioteca é tão imensa que toda redução de origem humana resulta infinitesimal. Outro: cada exemplar é único, insubstituível, mas (como a Biblioteca é total) há sempre várias centenas de milhares de fac-símiles imperfeitos: de obras que apenas diferem por uma letra ou por uma virgula. Contra a opinião geral, atrevo-me a supor que as consequências das depredações cometidas pelos Purificadores foram exageradas graças ao horror que esses fanáticos provocaram. Urgia-lhes o delírio de conquistar os livros do Hexágono Carmesim: livros de formato menor que os naturais; onipotentes, ilustrados e mágicos.
 
 Também sabemos de outra superstição daquele tempo: a do Homem do Livro. Em alguma estante de algum hexágono (raciocinaram os homens) deve existir um livro que seja a cifra e o compêndio perfeito de todos os demais: algum bibliotecário o consultou e é análogo a um deus.
 
 Na linguagem desta área persistem ainda vestígios do culto desse funcionário remoto. Muitos peregrinaram á procura d’Ele. Durante um século trilharam em vão os mais diversos rumos. Como localizar o venerado hexágono secreto que o hospedava? alguém propôs um método regressivo: Para localizar o livro A, consultar previamente um livro B, que indique o lugar de A; para localizar o livro B, consultar previamente um livro C, e assim até o infinito…
-
-![biblioteca-de-babel-2](/images/biblioteca-de-babel-2.jpg)
 
 Em aventuras como essas, prodigalizei e consumi meus anos. Não me parece inverosímil que em alguma prateleira do Universo haja um livro total; rogo aos deuses ignorados que um homem – um só, ainda que seja há mil anos! – o tenha examinado e lido. Se a honra e a sabedoria e a felicidade não estão para mim, que sejam para outros. Que o céu exista, embora meu lugar seja o inferno. Que eu seja ultrajado e aniquilado, mas que num instante, num ser, Tua enorme Biblioteca Se justifique.
 
@@ -87,6 +85,8 @@ Essas palavras, que não apenas denunciam a desordem mas que também a exemplifi
 
 Essas proposições, à primeira vista incoerentes, sem dúvida são passíveis de uma justificativa criptográfica ou alegórica; essa justificativa é verbal e, ex hypothesi, já figura na Biblioteca. Não posso combinar certos biblioteca-de-babel-3caracteres que a divina Biblioteca não tenha previsto e que em alguma de suas línguas secretas não contenham um terrível sentido. Ninguém pode articular uma sílaba que não esteja cheia de ternuras e de temores; que não seja em alguma dessas linguagens o nome poderoso de um deus. Falar é incorrer em tautologias.
 
+![biblioteca-de-babel-3](/images/biblioteca-de-babel-3.jpg)
+
 Esta epístola inútil e palavrosa já existe num dos trinta volumes das cinco prateleiras de um dos incontáveis hexágonos – e também sua refutação. (Um numero n de linguagens possíveis usa o mesmo vocabulário; em alguns, o símbolo biblioteca admite a correta definição ubíquo e perdurável sistema de galerias hexagonais, mas biblioteca é pão ou pirâmide ou qualquer outra coisa, e as sete palavras que a definem tem outro valor. Você, que me lê, tem certeza de entender minha linguagem?)
 
 A escrita metódica distrai-me da presente condição dos homens. A certeza de que tudo está escrito nos anula ou nos fantasmagórica. Conheço distritos em que os jovens se prostram diante dos livros e beijam com barbárie as páginas, mas não sabem decifrar uma única letra.
@@ -94,7 +94,5 @@ A escrita metódica distrai-me da presente condição dos homens. A certeza de q
 As epidemias, as discórdias heréticas, as peregrinações que inevitavelmente degeneram em bandoleirismo, dizimaram a população. Acredito ter mencionado os suicídios, cada ano mais frequentes. Talvez me enganem a velhice e o temor, mas suspeito que a espécie humana – a única – está por extinguir-se e que a Biblioteca perdurará: iluminada, solitária, infinita, perfeitamente imóvel, armada de volumes preciosos, inútil, incorruptível, secreta.
 
 Acabo de escrever infinita. Não interpolei esse adjetivo por costume retórico; digo que não é ilógico pensar que o mundo é infinito. Aqueles que o julgam limitado postulam que em lugares remotos os corredores e escadas e hexágonos podem inconcebivelmente cessar – o que é absurdo. Aqueles que o imaginam sem limites esquecem que os abrange o número possível de livros.
-
-![biblioteca-de-babel-3](/images/biblioteca-de-babel-3.jpg)
 
 Atrevo-me a insinuar esta solução do antigo problema: A Biblioteca é ilimitada e periódica. Se um eterno viajante a atravessasse em qualquer direção, comprovaria ao fim dos séculos que os mesmos volumes se repetem na mesma desordem (que, reiterada, seria uma ordem: a Ordem). Minha solidão alegra-se com essa elegante esperança.
