@@ -4,9 +4,13 @@ title: "A biblioteca de Babel"
 date: 2018-06-01
 author: "Jorge Luis Borges"
 ---
+
+![Babel](/images/babel06.jpg)
+
 O UNIVERSO (que outros chamam a Biblioteca) compõe-se de um número indefinido, e talvez infinito, de galerias hexagonais, com vastos poços de ventilação no centro, cercados por balaustradas baixíssimas. De qualquer hexágono, vêem-se os andares inferiores e superiores: interminavelmente.
 
 A distribuição das galerias é invariável. Vinte prateleiras, em cinco longas estantes de cada lado, cobrem todos os lados menos dois; sua altura, que é a dos andares, excede apenas a de um bibliotecário normal.
+
 
 Uma das faces livres dá para um estreito vestíbulo, que desemboca em outra galeria, idêntica à primeira e a todas. À esquerda e à direita do vestíbulo, há dois sanitários minúsculos. Um permite dormir em pé; outro, satisfazer as necessidades físicas. Por aí passa a escada espiral, que se abisma e se eleva ao infinito.
 
@@ -20,7 +24,6 @@ Os idealistas argúem que as salas hexagonais são uma forma necessária do espa
 
 A cada um dos muros de cada hexágono correspondem cinco estantes; cada estante encerra trinta e dois livros de formato uniforme; cada livro é de quatrocentas e dez páginas; cada página, de quarenta linhas; cada linha, de umas oitenta letras de cor preta.
 
-![Babel](/images/babel06.jpg)
 
 Também há letras no dorso de cada livro; essas letras não indicam ou prefiguram o que dirão as páginas. Sei que essa inconexão, certa vez, pareceu misteriosa. Antes de resumir a solução (cuja descoberta, apesar de suas trágicas projeções, é talvez o fato capital da história), quero rememorar alguns axiomas.
 
@@ -36,11 +39,11 @@ Já se sabe: para uma linha razoável com uma correta informação, há léguas 
 
 Durante muito tempo, acreditou-se que esses livros impenetráveis correspondiam a línguas pretéritas ou remotas. É verdade que os homens mais antigos, os primeiros bibliotecários, usavam uma linguagem assaz diferente da que falamos agora; é verdade que algumas milhas à direita a língua é dialetal e que noventa andares mais acima é incompreensível.
 
+![babel-dante-salatino-2008](/images/babel-dante-salatino-2008)
+
 Tudo isso, repito-o, é verdade, mas quatrocentas e dez páginas de inalteráveis M C V não podem corresponder a nenhum idioma, por dialetal ou rudimentar que seja. Uns insinuaram que cada letra podia influir na subsequente e que o valor de M C V na terceira linha da página 71 não era o que pode ter a mesma série noutra posição de outra página, mas essa vaga tese não prosperou. Outros pensaram em criptografias; universalmente essa conjectura foi aceite, ainda que não no sentido em que a formularam seus inventores.
 
 Há quinhentos anos, o chefe de um hexágono superior deparou com um livro tão confuso quanto os outros, porém que possuía quase duas folhas de linhas homogêneas. Mostrou o seu achado a um decifrador ambulante, que lhe disse que estavam redigidas em português; outros lhe afirmaram que em iídiche. Antes de um século pôde ser estabelecido o idioma: um dialeto samoiedo-lituano do guarani, com inflexões de árabe clássico.
-
-![babel-dante-salatino-2008](/images/babel-dante-salatino-2008)
 
 Também decifrou-se o conteúdo: noções de análise combinatória, ilustradas por exemplos de variantes com repetição ilimitada. Esses exemplos permitiram que um bibliotecário de gênio descobrisse a lei fundamental da Biblioteca. Esse pensador observou que todos os livros, por diversos que sejam, constam de elementos iguais: o espaço, o ponto, a vírgula as vinte e duas letras do alfabeto.
 
