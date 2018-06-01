@@ -436,7 +436,6 @@ pre.code code ol li {
 /* div.post
  * div.post h1
  * div.post h*
- * div.post p
  * div.post blockquote
  */ 
 
@@ -456,5 +455,9 @@ p.meta {
 
 div.post  {
   margin: 10px 0px;
+}
+
+div.post p img {
+  margin: 0 auto;
 }
 
