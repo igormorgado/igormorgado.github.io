@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: "Computer Modern", serif;
-  margin: 1.5em auto;
+  margin: 1.5em;
   max-width: 40em;
   line-height: 1.2em;
   background-color: var(--default-background);
