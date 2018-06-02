@@ -187,7 +187,7 @@ thead th {
     font-weight: bold;
     border-top: 6px double var(--dark-foreground);
     border-bottom: 2px solid var(--dark-foreground);
-    padding: 0px 1em;
+    padding: 0 1em;
 }
 
 tfoot tr {
@@ -197,17 +197,17 @@ tfoot tr {
 
 tfoot td {
     border-bottom: 2px solid var(--dark-foreground);
-    padding: 0px 1em;
+    padding: 0 1em;
 }
 
 tbody th {
   border-bottom: 1px solid var(--invisibles);
-  padding: 0px 1em;
+  padding: 0 1em;
 }
 
 td {
   border-bottom: 1px solid var(--invisibles);
-  padding: 0px 1em;
+  padding: 0 1em;
 }
 
 tbody th {
@@ -243,7 +243,7 @@ nav {
 }
 
 nav ul, footer ul {
-  padding: 0px;
+  padding: 0;
   list-style: none;
   margin-left: 0em;
   margin-bottom: 0em;
@@ -306,11 +306,11 @@ table.horiz {
 }
 
 table.horiz th {
-    padding: 0px 1em;
+    padding: 0 1em;
 }
 
 table.horiz td {
-    padding: 0px 1em;
+    padding: 0 1em;
 }
 
 table.horiz tbody tr:nth-child(even)
@@ -331,7 +331,7 @@ table.horiz tbody tr:hover {
 table.vert {
   border-collapse: separate;
   vertical-align: baseline;
-  border-spacing: 1em 0px;
+  border-spacing: 1em 0;
 }
 
 table.vert tbody tr {
@@ -339,15 +339,15 @@ table.vert tbody tr {
 }
 
 table.vert thead th {
-    padding: 0px .5em;
+    padding: 0 .5em;
 }
 
 table.vert tbody th {
-  padding: 0px .5em;
+  padding: 0 .5em;
 }
 
 table.vert td {
-  padding: 0px .5em;
+  padding: 0 .5em;
 }
 
 table.vert tfoot {
@@ -375,7 +375,7 @@ figcaption {
 
 
 p.about {
-  margin: 20px 50px 30px;
+  margin: 0.7em 1.5em 1em;
 }
 
 div.bannerpicture {
@@ -454,11 +454,11 @@ ul.posts li {
 }
 
 p.meta {
-  padding: 10px 0px;
+  padding: 10px 0;
 }
 
 div.post  {
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 div.post p img {
