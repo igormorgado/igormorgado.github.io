@@ -155,6 +155,7 @@ dd {
 }
 
 pre {
+  font-family: "Computer Modern Monospace", Monospace;
   border: 1px solid var(--lighter-background);
   margin: 1em;
   font-size: 0.75em;
