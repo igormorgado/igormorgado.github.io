@@ -1,22 +1,38 @@
 /* base 16 - base grey colors */
 :root
 {
-  --base00: #f5f5f5;  /* Default background */
-  --base01: #e0e0e0;  /* lighter background */
-  --base02: #d0d0d0;  /* selection background */
-  --base03: #b0b0b0;  /* invisibles */
-  --base04: #505050;  /* dark foreground */
-  --base05: #303030;  /* default foreground */
-  --base06: #202020;  /* light foreground */
-  --base07: #151515;  /* light background */
-  --base08: #ac4142;  /* Variables  */
-  --base09: #d28445;  /* Integers   */
-  --base0a: #f4bf75;  /* Classes    */
-  --base0b: #90a959;  /* Strings    */
-  --base0c: #75b5aa;  /* support    */
-  --base0d: #6a9fb5;  /* functions  */
-  --base0e: #aa759f;  /* keyword    */
-  --base0f: #8f5536;  /* deprecated */
+  /* Default background */
+  --base00: #f5f5f5;              
+  /* lighter background */
+  --base01: #e0e0e0;              
+  /* selection background */
+  --base02: #d0d0d0;              
+  /* invisibles */
+  --base03: #b0b0b0;              
+  /* dark foreground */
+  --base04: #505050;              
+  /* default foreground */
+  --base05: #303030;              
+  /* light foreground */
+  --base06: #202020;              
+  /* light background */
+  --base07: #151515;              
+  /* Variables  */
+  --base08: #ac4142;              
+  /* Integers   */
+  --base09: #d28445;              
+  /* Classes    */
+  --base0a: #f4bf75;              
+  /* Strings    */
+  --base0b: #90a959;              
+  /* support    */
+  --base0c: #75b5aa;              
+  /* functions  */
+  --base0d: #6a9fb5;              
+  /* keyword    */
+  --base0e: #aa759f;              
+  /* deprecated */
+  --base0f: #8f5536;              
 
   --default-background:   var(--base00);
   --lighter-background:   var(--base01);

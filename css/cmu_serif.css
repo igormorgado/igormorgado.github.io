@@ -22,13 +22,6 @@
 	font-style: italic;
 }
 
-
-@font-face {
-  font-family: "Computer Modern";
-  src: url('/fonts/cmuntt.ttf');
-  font-style: fixed;
-}
-
 /* Type writer fixed  */
 @font-face {
   font-family: "Computer Modern Monospace";
@@ -44,7 +37,7 @@
 @font-face {
   font-family: "Computer Modern Monospace";
   src: url('/fonts/cmunit.ttf');
-  font-weight: italic;
+  font-style: italic;
 }
 
 @font-face {
