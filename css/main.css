@@ -158,7 +158,7 @@ pre {
   font-family: "Computer Modern Monospace", monospace;
   border: 1px solid var(--lighter-background);
   margin: 1em;
-  font-size: 0.75em;
+  font-size: 0.85em;
 }
 
 code {
