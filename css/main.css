@@ -2,11 +2,14 @@
  * General styles
  ***************************************************/
 
+html {
+  font-size: 14px; 
+}
+
 body {
   font-family: "Computer Modern", serif;
   margin: 1.5em auto;
   max-width: 40em;
-  font-size: 14px; 
   line-height: 1.2em;
   background-color: var(--default-background);
   color: var(--default-foreground);
