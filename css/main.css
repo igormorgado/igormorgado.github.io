@@ -161,6 +161,10 @@ pre {
   font-size: 0.75em;
 }
 
+code {
+  font-family: "Computer Modern Monospace", monospace;
+}
+
 math, math[mode=display] {
   margin-top: 1em;
   margin-bottom: 1em;
