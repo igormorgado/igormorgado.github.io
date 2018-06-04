@@ -387,7 +387,7 @@ div.bannerpicture {
   margin-top: 10px;
   margin-bottom: 10px;
   overflow: hidden;
-  height: 300px;
+  height: 10em;
 }
 
 blockquote.classic {
@@ -459,11 +459,11 @@ ul.posts li {
 }
 
 p.meta {
-  padding: 10px 0;
+  padding: .3em 0;
 }
 
 div.post  {
-  margin: 10px 0;
+  margin: .3em 0;
 }
 
 div.post p img {
