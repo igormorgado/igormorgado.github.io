@@ -482,10 +482,10 @@ div.post p img {
   }
 
   body {
-    margin: .5em auto;
+    margin: .75em auto;
     max-width: none;
-    padding-left: .5em;
-    padding-right: .5em;
+    padding-left: .75em;
+    padding-right: .75em;
   }  
 }
 
