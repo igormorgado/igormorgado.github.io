@@ -489,7 +489,7 @@ div.post p img {
   }  
 }
 
-@media screen and (min-resolution: 200dpi) {
+@media screen and (min-resolution: 150dpi) {
   html {
     font-size: 22px; 
   }
