@@ -391,7 +391,7 @@ div.bannerpicture {
 }
 
 blockquote.classic {
-	font-family: "Computer Modern", serif;
+	font-family: "Computer Modern Serif", serif;
   margin: 1em;
   padding-left: 1.5em;
   padding-right: 1.5em;
@@ -489,6 +489,10 @@ div.post p img {
   }  
 }
 
-/* @media print and (min-resolution: 300dpi) { … } */
+@media screen and (min-resolution: 200dpi) {
+  html {
+    font-size: 22px; 
+  }
+}
 
 
