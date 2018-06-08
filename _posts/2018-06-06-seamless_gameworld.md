@@ -121,3 +121,30 @@ When the player moves to another location, now represented by the blue square (g
 
 It's very important to notice that there was no need to read the whole area around the character, just the new content. How that content is organized (is matter to another article).
 
+By doing that, we can keep the memory usage under control, no matter the size of our map, in memory there is only a fixed ammount of grids.
+
+The bounding window is often related to the player view area plus some area surrounding it, to make movement smooth (we will discuss the steps for that in another article).
+
+But, another issue cames in, if grid is too big, will be hard to address all the content also, the I/O will be huge since we will keep reading areas on disk that can be too far apart. We will try to mitigate that slicing our data.
+
+### Slicing the grid
+
+As you could probably noticed, in our grids we  have drawn some light grey boundaries and some black boundaries. We can think of the grey boundaries as tiles inside a map and the black boundaries as limits of a chunk of map that is stored in a separated file, the exact amount of tiles per map isn't important.
+
+Note that the **WORLD** is the collections of all map files, glued one aside of the other (how this glue is done, we will discuss in another moment).
+
+One thing that is very important is the number os tiles per map file, is finite and well know. We can fix, for example *1000 x 1000* tiles per map. (in figure we show just a few tiles because draw 1000 lines isn't possible), therefore the size of each file is very manageable, it can be probably load completely in the memory in a good enough machine.
+
+And one amazing thing, no matter where the player is, it never touches more than 4 map files per time. One restriction here is that the bounding window is never bigger than the smallest map file. Looking the numbers, it will never be, since the bounding window is associated with the player view screen, that barely goes larger than *30 x 30* and we can preload some neighboor areas to make things smoother, that goes like *50 x 50* since we can consider that the player never moves faster than 10 tiles per second, we can always adapt the surround area just by knowing the fastest speed that any player can move in a second and preloading the double ammount of it. In the other hand a map file should have at least *1000 x 1000* tiles in a compressed format.
+
+### Getting to the border
+
+But what happens when the player is very near of a border and it needs data that is outside the file map he is right now? This should not be an issue since as we can see from *figure 10*, is impossible to the player be neighboor of more than 4 maps, therefore in the worst case you will have part of 4 different files loaded on memory and the I/O seeks while not optimal are upper bounded (we will think of optimizations later).
+
+
+## Infinity
+
+With that concepts is possible to have infinite maps, limited only by the disk space (that is the cheapest) of the limits, if we take in account some compression methods as the [Blosc Library](https://blosc.org) we can have file acess faster than *memcpy* with sizes  compressed to a ratio of 10:1.
+
+
+
