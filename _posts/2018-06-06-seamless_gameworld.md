@@ -99,12 +99,12 @@ For camparison while games like *Zelda* draw over a 2D grid as shown in figure 7
 
 
 {% include image.html 
-   url="/images/gameworld1/2dgrid.jpg" 
+   url="/images/gameworld1/2dgrid.png" 
    description="Figure 7: A 2d grid, every cell is related to a tile and is numbered based on (x,y) coordinate."
 %}
 
 {% include image.html 
-   url="/images/gameworld1/3dgrid2.jpg" 
+   url="/images/gameworld1/3dgrid2.png" 
    description="Figure 9: A 3d grid, every cell is related to a tile and is numbered based on (x,y,z) coordinate."
 %}
 
