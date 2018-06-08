@@ -62,6 +62,10 @@ Maybe try to show some math:
 x^n + y^n = z^n
 \end{align}
 
+or with dollar notation
+
+$$x^n + y^n = z^n$$
+
 Nam ultricies elit sit amet aliquet rutrum. Ut pharetra est metus, eu accumsan 
 dolor scelerisque vel. Nullam id imperdiet mi. Nulla turpis massa, efficitur 
 non dapibus sed, elementum et justo. Duis volutpat consectetur lectus, sit 

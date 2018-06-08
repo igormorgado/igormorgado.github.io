@@ -240,6 +240,8 @@ Mayube checking the compression ratio of some sample maps (with 1000 and 500 in 
 
 Also think about the *offset* idea in tile, I think that is a good idea, even z_offset can be used to create smooth terrain changes, maybe will drop the *x, y* offset and let only the z offset for small terrain vertical changes.
 
+Also, maybe pack the tile and prop values into a small pack as defined in [Bit packing](https://codeplea.com/optimal-bit-packing)
+
 ## Results
 
 Need to test stuff not just chitchat
