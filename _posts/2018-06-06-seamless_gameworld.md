@@ -10,7 +10,7 @@ author: "Igor Morgado"
 * [Introduction](#introduction)
 * [Motivation](#motivation)
    * [A grid world](#a-grid-world)
-   * [THE Grid world](#the-grid-world)
+* [THE Grid world](#the-grid-world)
    * [A bonding window](#a-bonding-window)
    * [Slicing the grid](#slicing-the-grid)
    * [Getting to the border](#getting-to-the-border)
@@ -103,7 +103,7 @@ This approach makes things simpler since the programmer do not need to take care
 
 We will try to take an approach more general but lets start do define some keywords, concepts and ideas.
 
-### THE Grid world
+## THE Grid world
 
 First things first, lets create our fictional game world and call it **WORLD**, everytime i use the bold captilized word **WORLD** I will be making reference to the definition that we will discuss now.
 
