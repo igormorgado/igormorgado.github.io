@@ -238,9 +238,6 @@ typedef struct vt_tile_t {
 } vt_tile_t;
 ```
 
-```
-
-
 Another datastructure idea
 
 ```
