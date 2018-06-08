@@ -498,4 +498,5 @@ div.post p img {
 }
 */
 
+/* font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1800 - 300))); */
 
