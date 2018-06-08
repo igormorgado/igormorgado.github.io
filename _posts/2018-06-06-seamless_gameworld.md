@@ -151,11 +151,17 @@ With that concepts is possible to have infinite maps, limited only by the disk s
 
 ## Going 3D
 
-The same concepts of a 2D grid can be applied to the 3D grid of the **WORLD**, the single difference is that instead a maximum of 4 files in boundaries at same time, we have 8, 4 above and 4 below if you're in a vertex. Besides that all concepts apply. In fact, we can think of the 2D case as the 3D case where the $z$ grid size is always 1.
+The same concepts of a 2D grid can be applied to the 3D grid of the **WORLD**, the single difference is that instead a maximum of 4 files in boundaries at same time, we have 8, 4 above and 4 below if you're in a vertex. Besides that all concepts apply. In fact, we can think of the 2D case as the 3D case where the *z* grid size is always 1.
 
 ## The WORLD tile
 
 Once we are set in how the **WORLD** is mapped we need to know what is stored in each one of those tiny blocks called **tiles**. 
+
+1. Describe  the tiles and props over the tile. 
+
+2. Examples with Zelda and other games.
+
+3. The tile structure and placement
 
 ## The datastructure
 
@@ -185,7 +191,6 @@ typedef struct vt_tile_t {
     int8_t y_offset;	// Tile draw offset in y direction
     int8_t z_offset;	// Tile draw offset in z direciton
     char status;	    // Tile bit flag status (TBD)
-    char padding[2];  // useless padding. Need to reorganize;
     vt_prop_t *prop;	// Props over the tile
 } vt_tile_t;
 ```
@@ -204,5 +209,49 @@ typedef struct vt_prop_t {
 ```
 
 The *vt_prop_t* has 16 bits left for anything else.
+
+
+Another datastructure idea
+
+```
+typedef struct vt_map_t {
+    int16_t id;                       // Map id
+    int16_t dx;                       // Size of each tile in X direction
+    int16_t dy;                       // Size of each tile in Y direction
+    int16_t dz;                       // Size of each tile in Z direction
+    int32_t nx;                       // number of tiles in X direction
+    int32_t ny;                       // number ot tiles in Y direction
+    int32_t nz;                       // number of tiles in Z direction
+    int32_t x0;                       // Origin x
+    int32_t y0;                       // Origin y
+    int32_t z0;                       // Origin z
+    char name[256];                   // A friendly map name 
+    vt_tile_t tile[1000][1000][100];  // The map chunk max size (100M tiles)
+} vt_map_t;
+```
+
+This idea will take around 1.5G per map uncompressed, is too much if we think we can be touching maximum of 8 maps. Of course read all the 8 maps in memory isn't the right approach.
+
+Reducing to the half of all 3 coordinates (500x500x50), it reduces to 190MBs uncompressed per file, that is pretty feasible even in low cost machines or mobiles.
+
+Mayube checking the compression ratio of some sample maps (with 1000 and 500 in size) using blosc we can find a good solution.
+
+Also think about the *offset* idea in tile, I think that is a good idea, even z_offset can be used to create smooth terrain changes, maybe will drop the *x, y* offset and let only the z offset for small terrain vertical changes.
+
+
+
+
+## Questions
+
+1. How to optimize the data structure for cache locality?
+
+2. How to serialize the data on disk since tiles are unknown and prop too?
+
+3. I can fix the number of props over a tile for a small qantity for example 8, I think that isn't so limiting, but it will create a waste of memory since IMHO most of time (like 90%) it will have 0 or 1 prop over a tile.
+
+4. Is there better ways to organize data to achieve the same design results?
+
+5. For open spaces will not be to "draw" too much emptyness?
+
 
 
