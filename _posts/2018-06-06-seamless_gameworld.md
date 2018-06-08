@@ -101,11 +101,27 @@ For camparison while games like *Zelda* draw over a 2D grid as shown in figure 7
 
 We can think of the **WORLD** as a stack of 2D grids as shown on figure 8,
 
-{% include image.html url="/images/gameworld1/grid_over_grid.png" description="FAKE" %}
+{% include image.html url="/images/gameworld1/grid_over_grid.png" description="Figure 8: A stack of three 2d grids." %}
 
-But not limited to 3 grids, lets supose we pack 30 grids one over another as shown in *figure 9*.
+But lets not limit ourselves to 3 grids, lets supose we pack 30 grids one over another as shown in *figure 9*.
 
 {% include image.html url="/images/gameworld1/cube.png" description="Figure 9: A 3d grid, every cell is related to a tile and is numbered based on (x,y,z) coordinate." %} 
 
 In the 3D Grid the things get even bigger, and very fast since every new layer on top of a plane is alike a whole new map of equal size.
+
+For now we can imagine that the **WORLD** is like the *figure 9* but instead a grid of size *30x30x30* we have a grid of size *100.000 x 100.000 x 1.000*, isn't easiliy drawable and that is just to materialize our idea, the core idea is infinity, But lets keep going.
+
+### A bonding window
+
+Lets go back to our 2D representation (it's easier to draw and notice details), take a look af *figure 10*. The red filled square is the original player location in the game world grid (the exact coordinates do not matter), the red box around its all content in memory. There is no need to bring all data to memory just the data around a smart radius (in this case was 12 squares), do not care right now for the dots, just look to the whole red area (that also includes the dots, we will discuss them later).
+
+{% include image.html url="/images/gameworld1/grid2d_move.png" description="Figure 10: Player location and tiles on memory on initial position(red) and after some movement (blue). The red dotted area describes the information that should be discarded and the blue dotted area shows the information that should be read to memory" %}
+
+When the player moves to another location, now represented by the blue square (green arrow shows the movement), the new bounding window is the one represented by the dashed blue area (including the area with the blue dots). But notice now, that the area with the red dots are outside of window and therefore need to be removed from memory (for sake economy), and the blue dotted area (as you can figure out), is the information that NEEDs to be read into the memory.
+
+It's very important to notice that there was no need to read the whole area around the character, just the new content. How that content is organized (is matter to another article).
+
+
+
+
 
