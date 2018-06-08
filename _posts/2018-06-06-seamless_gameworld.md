@@ -263,6 +263,3 @@ Here some conclusions
 
 6. How make props stay near the tile without too much memory expanse?
 
-
-
-

@@ -202,3 +202,6 @@ int main(int argc, char *argv[])
 
 And that is it!
 
+<!-- Adds an empty comment section to the page -->
+{% responses %}
+{% endresponses %}
