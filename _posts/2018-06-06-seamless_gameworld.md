@@ -69,9 +69,24 @@ What is important to note is the player will never be between two zones as we im
 
 The game design and programming choices regarding *The Legend of Zelda* were made concerned with the hardware of that time, but lets instead imagine that we could walk throught the entire game map without any load.
 
-{% include image.html url="/images/gameworld1/zelda_map.png" description="Figure 6: The entire Zelda game world, the maps were glued by some internet artist with love and spare time (open the map in new window to see it completely)." %}
+{% include image.html url="/images/gameworld1/zelda_map.png" description="Figure 6: The entire Zelda game world (without the dungeons that do not fit in this map), the maps were glued by some internet artist with love and spare time (open the map in new window to see it completely)." %}
+
+There are two solutions
+
+ 1. Load the whole map in memory, in this case is around 22528 tiles, that is too much to fit the memory of old NES (2K internal ram).
+
+ 2. Load as it moves, as the character moves in a direction drops the data outside and loads new information.
+
+The second solution was used in games launched later, *Zelda 2: The adventure of Link* used that already.
+
+Even nowdays, many games take a mix of the two approaches where a larger than screen map is loaded is fully loaded an memory but only a portion of it is really drawn on screen, that area is controlled by a camera position. When a player reaches the boundaries of this area, a load screen is called, all map information is drop from memory and a new map is loaded.
+
+This approach makes things simpler since the programmer do not need to take care about objects dinamically getting in and out of memory. 
+
+We will try to take an approach more general but lets start do define some keyworkds
 
 ### THE Grid world
+
 
 First things first, lets create our fictional game world and call it **WORLD**, everytime i use the bold captilized word **WORLD** I will be making reference to the definition that we will discuss now.
 
