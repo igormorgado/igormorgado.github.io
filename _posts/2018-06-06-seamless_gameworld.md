@@ -79,15 +79,34 @@ There are two solutions
 
 The second solution was used in games launched later, *Zelda 2: The adventure of Link* used that already.
 
-Even nowdays, many games take a mix of the two approaches where a larger than screen map is loaded is fully loaded an memory but only a portion of it is really drawn on screen, that area is controlled by a camera position. When a player reaches the boundaries of this area, a load screen is called, all map information is drop from memory and a new map is loaded.
+Even nowdays, many games take a mix of the two approaches where a larger than screen map is fully loaded into the  memory but only a portion of it is really drawn on screen, that area is controlled by a camera position. When a player reaches the boundaries of this area, a load screen is called, all map information is drop from memory and a new map is loaded.
 
 This approach makes things simpler since the programmer do not need to take care about objects dinamically getting in and out of memory. 
 
-We will try to take an approach more general but lets start do define some keywords
+We will try to take an approach more general but lets start do define some keywords, concepts and ideas.
 
 ### THE Grid world
 
-
 First things first, lets create our fictional game world and call it **WORLD**, everytime i use the bold captilized word **WORLD** I will be making reference to the definition that we will discuss now.
 
-By my own limitations the game world is a tiled gameworld, it means I will discretize every  in world by a single element in a array.
+By my own limitations and choices the game world is a regular homogeneous tiled gameworld, it means I will discretize every location in world by a single element in a multi dimensional array, much similar to the way of *Zelda's* approach, but there are two important differences.
+
+**First**, the game world has infinite size, at least is very large, so large that could not fit in memory of the best computer nowdays.
+
+**Second**, is a tridimensional world, at least for matter. Therefore the grid also expands above the plane, we can describe it as a grid on top of other grid, on top of other grid and goes on and on.
+
+For camparison while games like *Zelda* draw over a 2D grid as shown in figure 7, we can think of the **WORLD** as a stack of 2D grids as shown on figure 8.
+
+
+{% include image.html 
+   url="/images/gameworld1/2dgrid.jpg" 
+   description="Figure 7: A 2d grid, every cell is related to a tile and is numbered based on (x,y) coordinate."
+%}
+
+{% include image.html 
+   url="/images/gameworld1/3dgrid2.jpg" 
+   description="Figure 9: A 3d grid, every cell is related to a tile and is numbered based on (x,y,z) coordinate."
+%}
+
+
+
