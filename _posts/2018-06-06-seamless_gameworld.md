@@ -147,7 +147,7 @@ But what happens when the player is very near of a border and it needs data that
 
 ## Infinity
 
-With that concepts is possible to have infinite maps, limited only by the disk space (that is the cheapest) of the limits, if we take in account some compression methods as the [Blosc Library](https://blosc.org) we can have file acess faster than *memcpy* with sizes  compressed to a ratio of 10:1.
+With that concepts is possible to have infinite maps, limited only by the disk space (that is the cheapest) of the limits, if we take in account some compression methods as the [Blosc Library](http://blosc.org) we can have file acess faster than *memcpy* with sizes  compressed to a ratio of 10:1.
 
 ## Going 3D
 
