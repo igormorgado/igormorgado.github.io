@@ -61,6 +61,7 @@ int map[16][11] = {
 }
 ```
 
+If we make some associations for example *0* to the sand terrain, *2* to the green mountain, *3* anti diagonal green mountain, *5* diagonal mountain, *6* green rock, *7* dungeon hole and drawn in right places we have the map as imaged by the original designers.
 
 ### THE Grid world
 
