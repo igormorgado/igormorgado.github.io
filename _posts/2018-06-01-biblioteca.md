@@ -5,7 +5,7 @@ date: 2018-06-01
 author: "Jorge Luis Borges"
 ---
 
-![A Biblioteca de Babel](/images/biblioteca_babel.jpg)
+![A Biblioteca de Babel](/images/babel/biblioteca_babel.jpg)
 
 O UNIVERSO (que outros chamam a Biblioteca) compõe-se de um número indefinido, e talvez infinito, de galerias hexagonais, com vastos poços de ventilação no centro, cercados por balaustradas baixíssimas. De qualquer hexágono, vêem-se os andares inferiores e superiores: interminavelmente.
 
@@ -21,7 +21,7 @@ Morto, não faltarão mãos piedosas que me joguem pela balaustrada; minha sepul
 
 Os idealistas argúem que as salas hexagonais são uma forma necessária do espaço absoluto ou, pelo menos, de nossa intuição do espaço. Alegam que é inconcebível uma sala triangular ou pentagonal. (os místicos pretendem que o êxtase lhes revele uma câmara circular com um grande livro circular de lombada contínua, que siga toda a volta das paredes; mas seu testemunho é suspeito; suas palavras, obscuras. Esse livro cíclico é Deus). Basta-me, por hora, repetir o preceito clássico: “A Biblioteca é uma esfera cujo centro cabal é qualquer hexágono, cuja circunferência é inacessível”.
 
-![Babel](/images/babel06.jpg)
+![Babel](/images/babel/babel06.jpg)
 
 A cada um dos muros de cada hexágono correspondem cinco estantes; cada estante encerra trinta e dois livros de formato uniforme; cada livro é de quatrocentas e dez páginas; cada página, de quarenta linhas; cada linha, de umas oitenta letras de cor preta.
 
@@ -37,7 +37,7 @@ Um, que meu pai viu em um hexágono do circuito quinze noventa e quatro, constav
 
 Já se sabe: para uma linha razoável com uma correta informação, há léguas de insensatas cacofonias, de confusões verbais e de incoerências. (Sei de uma região montanhosa cujos bibliotecários repudiam o supersticioso e vão costume de procurar sentido nos livros e o equiparam ao de procurá-lo nos sonhos ou nas linhas caóticas da mão… Admitem que os inventores da escrita imitaram os vinte e cinco símbolos naturais, mas sustentam que essa aplicação é casual, e que os livros em si nada significam. Esse ditame, já veremos, não é completamente falaz).
 
-![babel-dante-salatino-2008](/images/babel-dante-salatino-2008.jpg)
+![babel-dante-salatino-2008](/images/babel/babel-dante-salatino-2008.jpg)
 
 Durante muito tempo, acreditou-se que esses livros impenetráveis correspondiam a línguas pretéritas ou remotas. É verdade que os homens mais antigos, os primeiros bibliotecários, usavam uma linguagem assaz diferente da que falamos agora; é verdade que algumas milhas à direita a língua é dialetal e que noventa andares mais acima é incompreensível.
 
@@ -53,7 +53,7 @@ Tudo: a história minuciosa do futuro, as autobiografias dos arcanjos, o catálo
 
 Quando se proclamou que a Biblioteca abarcava todos os livros, a primeira impressão foi de extravagante felicidade. Todos os homens sentiram-se senhores de um tesouro intacto e secreto. Não havia problema pessoal ou mundial cuja eloquente solução não existisse: em algum hexágono. o Universo estava justificado, o Universo bruscamente usurpou as dimensões ilimitadas da esperança.
 
-![Erik Desmazires.La salle des plantes (The hall of planets)](/images/erik-desmazires-la-salle-des-plantes-the-hall-of-planets.jpg)
+![Erik Desmazires.La salle des plantes (The hall of planets)](/images/babel/erik-desmazires-la-salle-des-plantes-the-hall-of-planets.jpg)
 
 Naquele tempo falou-se muito das Vindicações: livros de apologia e de profecia, que para sempre vindicavam os actos de cada homem do Universo e guardavam arcanos prodigiosos para seu futuro. Milhares de cobiçosos abandonaram o doce hexágono natal e precipitaram-se escadas acima, premidos pelo vão propósito de encontrar sua Vindicação.
 
@@ -69,7 +69,7 @@ As autoridades viram-se obrigadas a promulgar ordens severas. A seita desaparece
 
 Outros, inversamente, acreditaram que o primordial era eliminar as obras inúteis. Invadiam os hexágonos, exibiam credenciais nem sempre falsas, folheavam com fastio um volume e condenavam prateleiras inteiras: a seu furor higiênico, ascético, deve-se a insensata perda de milhões de livros. Seu nome é execrado, mas aqueles que deploram os “tesouros” destruídos por seu frenesi negligenciam dois fatos notórios.
 
-![biblioteca-de-babel-2](/images/biblioteca-de-babel-2.jpg)
+![biblioteca-de-babel-2](/images/babel/biblioteca-de-babel-2.jpg)
 
 Um: a Biblioteca é tão imensa que toda redução de origem humana resulta infinitesimal. Outro: cada exemplar é único, insubstituível, mas (como a Biblioteca é total) há sempre várias centenas de milhares de fac-símiles imperfeitos: de obras que apenas diferem por uma letra ou por uma virgula. Contra a opinião geral, atrevo-me a supor que as consequências das depredações cometidas pelos Purificadores foram exageradas graças ao horror que esses fanáticos provocaram. Urgia-lhes o delírio de conquistar os livros do Hexágono Carmesim: livros de formato menor que os naturais; onipotentes, ilustrados e mágicos.
 
@@ -85,7 +85,7 @@ Essas palavras, que não apenas denunciam a desordem mas que também a exemplifi
 
 Essas proposições, à primeira vista incoerentes, sem dúvida são passíveis de uma justificativa criptográfica ou alegórica; essa justificativa é verbal e, ex hypothesi, já figura na Biblioteca. Não posso combinar certos biblioteca-de-babel-3caracteres que a divina Biblioteca não tenha previsto e que em alguma de suas línguas secretas não contenham um terrível sentido. Ninguém pode articular uma sílaba que não esteja cheia de ternuras e de temores; que não seja em alguma dessas linguagens o nome poderoso de um deus. Falar é incorrer em tautologias.
 
-![biblioteca-de-babel-3](/images/biblioteca-de-babel-3.jpg)
+![biblioteca-de-babel-3](/images/babel/biblioteca-de-babel-3.jpg)
 
 Esta epístola inútil e palavrosa já existe num dos trinta volumes das cinco prateleiras de um dos incontáveis hexágonos – e também sua refutação. (Um numero n de linguagens possíveis usa o mesmo vocabulário; em alguns, o símbolo biblioteca admite a correta definição ubíquo e perdurável sistema de galerias hexagonais, mas biblioteca é pão ou pirâmide ou qualquer outra coisa, e as sete palavras que a definem tem outro valor. Você, que me lê, tem certeza de entender minha linguagem?)
 
