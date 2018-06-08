@@ -65,7 +65,11 @@ If we make some associations for example *0* to the sand terrain, *2* to the gre
 
 What is important to note is the player will never be between two zones as we imaged in *figure 5* by hypothetically putting the player where the **blue mark** is
 
-{% include image.html url="/images/gameworld1/zelda_centered_x.png" description="Figure 5: Hipotethical and never ocurring situation in original Zelda game. The screen is NEVER centered on player, instead the player moves around the fixed screen." %}
+{% include image.html url="/images/gameworld1/zelda_centered_x.png" description="Figure 5: Hypothetical and never ocurring situation in original Zelda game. The screen is NEVER centered on player, instead the player moves around the fixed screen." %}
+
+The game design and programming choices regarding *The Legend of Zelda* were made concerned with the hardware of that time, but lets instead imagine that we could walk throught the entire game map without any load.
+
+{% include image.html url="/images/gameworld1/zelda_map.png" description="Figure 6: The entire Zelda game world, the maps were glued by some internet artist with love and spare time (open the map in new window to see it completely)." %}
 
 ### THE Grid world
 
