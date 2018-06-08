@@ -99,3 +99,5 @@ For camparison while games like *Zelda* draw over a 2D grid as shown in figure 7
 
 {% include image.html url="/images/gameworld1/grid2d.png" description="Figure 7: A 2d grid, every cell is related to a tile and is numbered based on (x,y) coordinate." %}
 
+We can think of the **WORLD** as a stack of 2D grids as shown on figure 8,
+
