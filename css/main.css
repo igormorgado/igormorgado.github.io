@@ -361,8 +361,8 @@ table.vert tfoot {
 }
 
 figure.center {
-	margin: .5em;
-  width: 70%;
+	margin: .5em auto;
+  width: 80%;
 }
 
 figure.center img {
