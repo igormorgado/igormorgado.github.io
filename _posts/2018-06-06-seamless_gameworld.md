@@ -101,8 +101,11 @@ For camparison while games like *Zelda* draw over a 2D grid as shown in figure 7
 
 We can think of the **WORLD** as a stack of 2D grids as shown on figure 8,
 
+{% include image.html url="/images/gameworld1/grid_over_grid.png" description="Figure 8: A stack of three 2D grids one over another.¨ %}
+
 But not limited to 3 grids, lets supose we pack 30 grids one over another as shown in *figure 9*.
+
+{% include image.html url="/images/gameworld1/cube.png" description="Figure 9: A 3d grid, every cell is related to a tile and is numbered based on (x,y,z) coordinate." %} 
 
 In the 3D Grid the things get even bigger, and very fast since every new layer on top of a plane is alike a whole new map of equal size.
 
-{% include image.html url="/images/gameworld1/cube.png" description="Figure 9: A 3d grid, every cell is related to a tile and is numbered based on (x,y,z) coordinate." %} 
