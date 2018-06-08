@@ -137,14 +137,28 @@ One thing that is very important is the number os tiles per map file, is finite 
 
 And one amazing thing, no matter where the player is, it never touches more than 4 map files per time. One restriction here is that the bounding window is never bigger than the smallest map file. Looking the numbers, it will never be, since the bounding window is associated with the player view screen, that barely goes larger than *30 x 30* and we can preload some neighboor areas to make things smoother, that goes like *50 x 50* since we can consider that the player never moves faster than 10 tiles per second, we can always adapt the surround area just by knowing the fastest speed that any player can move in a second and preloading the double ammount of it. In the other hand a map file should have at least *1000 x 1000* tiles in a compressed format.
 
+Another important aspect is the coordinate system. There is no local coordinate system, the coordinates are absolute based in the whole map, being (0,0) a map orgin, maps connected in boundaries have their coordinates summed as we can see in *figure 11*.
+
+{% include image.html url="/images/gameworld1/mapcoords.png" description="Figure 11: Shows the grid coordinates on boundaries. There is no local map file coordinates, all coordinates are absolute to the **WORLD**." %}
+
 ### Getting to the border
 
 But what happens when the player is very near of a border and it needs data that is outside the file map he is right now? This should not be an issue since as we can see from *figure 10*, is impossible to the player be neighboor of more than 4 maps, therefore in the worst case you will have part of 4 different files loaded on memory and the I/O seeks while not optimal are upper bounded (we will think of optimizations later).
 
-
 ## Infinity
 
 With that concepts is possible to have infinite maps, limited only by the disk space (that is the cheapest) of the limits, if we take in account some compression methods as the [Blosc Library](https://blosc.org) we can have file acess faster than *memcpy* with sizes  compressed to a ratio of 10:1.
+
+## Going 3D
+
+The same concepts of a 2D grid can be applied to the 3D grid of the **WORLD**, the single difference is that instead a maximum of 4 files in boundaries at same time, we have 8, 4 above and 4 below if you're in a vertex. Besides that all concepts apply. In fact, we can think of the 2D case as the 3D case where the $z$ grid size is always 1.
+
+## The WORLD tile
+
+Once we are set in how the **WORLD** is mapped
+
+
+
 
 
 
