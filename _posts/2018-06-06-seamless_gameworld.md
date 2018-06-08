@@ -5,6 +5,7 @@ date: 2018-06-06
 author: "Igor Morgado"
 ---
 
+<section id="TOC">
 ## Table of contents
 
 * [Introduction](#introduction)
@@ -21,6 +22,7 @@ author: "Igor Morgado"
 * [Results](#results)
 * [Conclusions](#conclusions)
 * [Questions](#questions)
+</section>
 
 
 ## Introduction
