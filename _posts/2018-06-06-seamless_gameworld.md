@@ -33,15 +33,15 @@ For sake of example lets take a classical game as *Nintendo's The Legend of Zeld
 
 In this game the player, represented by the green hooded character *Link*, always see a single area as the picture above. No matter where on the screen the player is, no matter if *Link* is in the center, near any of the bushes or screen boundaries. It always see the same screen, as we have shown as example in the *figure 2*.
 
-{% include image.html url="/images/gameworld1/zelda_in_zone.png" description="Figure 2: Some examples of possible locations, here we added a little more of the surrounding maps just for sake of information, but the players ONLY sees wht is inside the red box" %}
+{% include image.html url="/images/gameworld1/zelda_in_zone.jpg" description="Figure 2: Some examples of possible locations, here we added a little more of the surrounding maps just for sake of information, but the players ONLY sees wht is inside the red box" %}
 
 When the player touches one of the screen boundaries (in this case the top boundary isn't reacheable because there are green mountains on the way), the game makes a transition to that direction removing the actual map from memory and loading the new map. In figure 3, I show the map around our initial map.
 
-{% include image.html url="/images/gameworld1/zelda_map_3x3_gridded.png" description="Figure 3: The maps in surroundings of our first map shown. The red lines show the limits of each map (open the image in new window for full size)" %} 
+{% include image.html url="/images/gameworld1/zelda_map_3x3_gridded.jpg" description="Figure 3: The maps in surroundings of our first map shown. The red lines show the limits of each map (open the image in new window for full size)" %} 
 
 For sake of example, if *Link* touches the right boundary it will be presented to another screen, in this case the right screen shown in *figure 4*
 
-{% include image.html url="/images/gameworld1/zelda_map_right.png" description="Figure 4: Screen shown if player moved right from original screen" %} 
+{% include image.html url="/images/gameworld1/zelda_map_right.jpg" description="Figure 4: Screen shown if player moved right from original screen" %} 
 
 Internally, the game drops all information about the previous map and load with the information about the new map. It does that for sake of memory limitation. The map is stored in a memory array as loosely represented here in C language.
 
@@ -65,11 +65,11 @@ If we make some associations for example *0* to the sand terrain, *2* to the gre
 
 What is important to note is the player will never be between two zones as we imaged in *figure 5* by hypothetically putting the player where the **blue mark** is
 
-{% include image.html url="/images/gameworld1/zelda_centered_x.png" description="Figure 5: Hypothetical and never ocurring situation in original Zelda game. The screen is NEVER centered on player, instead the player moves around the fixed screen." %}
+{% include image.html url="/images/gameworld1/zelda_centered_x.jpg" description="Figure 5: Hypothetical and never ocurring situation in original Zelda game. The screen is NEVER centered on player, instead the player moves around the fixed screen." %}
 
 The game design and programming choices regarding *The Legend of Zelda* were made concerned with the hardware of that time, but lets instead imagine that we could walk throught the entire game map without any load.
 
-{% include image.html url="/images/gameworld1/zelda_map.png" description="Figure 6: The entire Zelda game world (without the dungeons that do not fit in this map), the maps were glued by some internet artist with love and spare time (open the map in new window to see it completely)." %}
+{% include image.html url="/images/gameworld1/zelda_map.jpg" description="Figure 6: The entire Zelda game world (without the dungeons that do not fit in this map), the maps were glued by some internet artist with love and spare time (open the map in new window to see it completely)." %}
 
 There are two solutions
 
@@ -97,15 +97,15 @@ By my own limitations and choices the game world is a regular homogeneous tiled 
 
 For camparison while games like *Zelda* draw over a 2D grid as shown in figure 7,
 
-{% include image.html url="/images/gameworld1/grid2d.png" description="Figure 7: A 2d grid, every cell is related to a tile and is numbered based on (x,y) coordinate." %}
+{% include image.html url="/images/gameworld1/grid2d.jpg" description="Figure 7: A 2d grid, every cell is related to a tile and is numbered based on (x,y) coordinate." %}
 
 We can think of the **WORLD** as a stack of 2D grids as shown on figure 8,
 
-{% include image.html url="/images/gameworld1/grid_over_grid.png" description="Figure 8: A stack of three 2d grids." %}
+{% include image.html url="/images/gameworld1/grid_over_grid.jpg" description="Figure 8: A stack of three 2d grids." %}
 
 But lets not limit ourselves to 3 grids, lets supose we pack 30 grids one over another as shown in *figure 9*.
 
-{% include image.html url="/images/gameworld1/cube.png" description="Figure 9: A 3d grid, every cell is related to a tile and is numbered based on (x,y,z) coordinate." %} 
+{% include image.html url="/images/gameworld1/cube.jpg" description="Figure 9: A 3d grid, every cell is related to a tile and is numbered based on (x,y,z) coordinate." %} 
 
 In the 3D Grid the things get even bigger, and very fast since every new layer on top of a plane is alike a whole new map of equal size.
 
@@ -115,7 +115,7 @@ For now we can imagine that the **WORLD** is like the *figure 9* but instead a g
 
 Lets go back to our 2D representation (it's easier to draw and notice details), take a look af *figure 10*. The red filled square is the original player location in the game world grid (the exact coordinates do not matter), the red box around its all content in memory. There is no need to bring all data to memory just the data around a smart radius (in this case was 12 squares), do not care right now for the dots, just look to the whole red area (that also includes the dots, we will discuss them later).
 
-{% include image.html url="/images/gameworld1/grid2d_move.png" description="Figure 10: Player location and tiles on memory on initial position(red) and after some movement (blue). The red dotted area describes the information that should be discarded and the blue dotted area shows the information that should be read to memory" %}
+{% include image.html url="/images/gameworld1/grid2d_move.jpg" description="Figure 10: Player location and tiles on memory on initial position(red) and after some movement (blue). The red dotted area describes the information that should be discarded and the blue dotted area shows the information that should be read to memory" %}
 
 When the player moves to another location, now represented by the blue square (green arrow shows the movement), the new bounding window is the one represented by the dashed blue area (including the area with the blue dots). But notice now, that the area with the red dots are outside of window and therefore need to be removed from memory (for sake economy), and the blue dotted area (as you can figure out), is the information that NEEDs to be read into the memory.
 
@@ -139,7 +139,7 @@ And one amazing thing, no matter where the player is, it never touches more than
 
 Another important aspect is the coordinate system. There is no local coordinate system, the coordinates are absolute based in the whole map, being (0,0) a map orgin, maps connected in boundaries have their coordinates summed as we can see in *figure 11*.
 
-{% include image.html url="/images/gameworld1/mapcoords.png" description="Figure 11: Shows the grid coordinates on boundaries. There is no local map file coordinates, all coordinates are absolute to the <strong>WORLD</strong>." %}
+{% include image.html url="/images/gameworld1/mapcoords.jpg" description="Figure 11: Shows the grid coordinates on boundaries. There is no local map file coordinates, all coordinates are absolute to the <strong>WORLD</strong>." %}
 
 ### Getting to the border
 
@@ -155,9 +155,7 @@ The same concepts of a 2D grid can be applied to the 3D grid of the **WORLD**, t
 
 ## The WORLD tile
 
-(IT MUST CONTINUE, down here are just a draft )
-
-Once we are set in how the **WORLD** is mapped we need to know what is stored in each one of those tiny blocks called **tiles**. 
+Once we are set in how the **WORLD** is mapped we need to know what is stored in each one of those tiny blocks called **tiles**. Lets go back to our *Zelda* game (another location just for fun), 
 
 1. Describe  the tiles and props over the tile. 
 
@@ -169,21 +167,33 @@ Once we are set in how the **WORLD** is mapped we need to know what is stored in
 
 ```
 typedef struct vt_map_t {
-    int16_t id;      // Map id
-    int16_t dx;      // Size of each tile in X direction
-    int16_t dy;      // Size of each tile in Y direction
-    int16_t dz;      // Size of each tile in Z direction
-    int32_t nx;      // number of tiles in X direction
-    int32_t ny;      // number ot tiles in Y direction
-    int32_t nz;      // number of tiles in Z direction
-    int32_t x0;      // Origin x
-    int32_t y0;      // Origin y
-    int32_t z0;      // Origin z
-    char name[256];  // A friendly map name (also can be searched upon
-    vt_tile_t *data; // The map data (size NX * NY * NZ)
+    // Map origin regarding the **WORLD**
+    int32_t x0;
+    int32_t y0;
+    int32_t z0;
+
+    // Grid size of this map in (x,y,z) directions
+    // No single map is bigger than 65535 in any 
+    // direction, if it is, you should split it.
+    int16_t nx;
+    int16_t ny;
+    int16_t nz;
+
+    // Size of tile in (x,y,z) directions
+    int16_t dx;
+    int16_t dy;
+    int16_t dz;
+
+    // Map unique ID (UID)
+    int16_t uid;
+    // Map unique name (can be accessed by name too)
+    // 256 - 2 for better packing
+    char name[254];
+
+    // Tile data
+    vt_tile_t *tile;
 } vt_map_t;
 ```
-The *vt_map_t* is nicely packed in 64bits or 32bits.
 
 
 ```
@@ -193,24 +203,12 @@ typedef struct vt_tile_t {
     int8_t y_offset;	// Tile draw offset in y direction
     int8_t z_offset;	// Tile draw offset in z direciton
     char status;	    // Tile bit flag status (TBD)
-    vt_prop_t *prop;	// Props over the tile
+    vt_tile_t *next;	// A layer over the tile
 } vt_tile_t;
 ```
 The *vt_tile_t* has 16 bits left for anything else
 
 ```
-typedef struct vt_prop_t {
-    int16_t id;     	// Prop ID that represents a image
-    int8_t x_offset;	// Prop offset positioning in X dir
-    int8_t y_offset;	// Prop offset positioning in Y dir
-    int8_t z_offset;	// Prop offset positioning in Z dir
-    char     status;	// Prop bit flag status (TBD)
-    char padding[2];  // useless padding. Need to reorganize;
-    vt_prop_t *next;	// If more props in same tile, next
-} vt_prop_t;
-```
-
-The *vt_prop_t* has 16 bits left for anything else.
 
 
 Another datastructure idea
@@ -240,11 +238,20 @@ Mayube checking the compression ratio of some sample maps (with 1000 and 500 in 
 
 Also think about the *offset* idea in tile, I think that is a good idea, even z_offset can be used to create smooth terrain changes, maybe will drop the *x, y* offset and let only the z offset for small terrain vertical changes.
 
-Also, maybe pack the tile and prop values into a small pack as defined in [Bit packing](https://codeplea.com/optimal-bit-packing)
+Also, maybe pack the tile and prop values into a small pack as defined in [Bit packing](https://codeplea.com/optimal-bit-packing) and [The lost art of C structure packing](http://www.catb.org/esr/structure-packing/).
 
 ## Results
 
-Need to test stuff not just chitchat
+Need to test stuff not just chitchat and add some data
+
+| ID  | Field   | Data   |
+|-----|:-------:|-------:|
+|  1  | Group 1 | 0.2123 |
+|  2  | Group 2 | 0      |
+|  3  | Group 3 | 1      |
+|  4  | Group 4 | 13     |
+|  5  | Group 5 | 145    |
+|  6  | Group 6 | 10.2   |
 
 ## Conclusions
 
