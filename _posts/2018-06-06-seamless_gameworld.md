@@ -155,6 +155,8 @@ The same concepts of a 2D grid can be applied to the 3D grid of the **WORLD**, t
 
 ## The WORLD tile
 
+(IT MUST CONTINUE, down here are just a draft )
+
 Once we are set in how the **WORLD** is mapped we need to know what is stored in each one of those tiny blocks called **tiles**. 
 
 1. Describe  the tiles and props over the tile. 
@@ -238,7 +240,13 @@ Mayube checking the compression ratio of some sample maps (with 1000 and 500 in 
 
 Also think about the *offset* idea in tile, I think that is a good idea, even z_offset can be used to create smooth terrain changes, maybe will drop the *x, y* offset and let only the z offset for small terrain vertical changes.
 
+## Results
 
+Need to test stuff not just chitchat
+
+## Conclusions
+
+Here some conclusions
 
 
 ## Questions
@@ -252,6 +260,9 @@ Also think about the *offset* idea in tile, I think that is a good idea, even z_
 4. Is there better ways to organize data to achieve the same design results?
 
 5. For open spaces will not be to "draw" too much emptyness?
+
+6. How make props stay near the tile without too much memory expanse?
+
 
 
 
