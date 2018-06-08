@@ -198,15 +198,45 @@ typedef struct vt_map_t {
 
 ```
 typedef struct vt_tile_t {
-    int16_t id;	      // Tile ID that represents a image tile
-    int8_t x_offset;	// Tile draw offset in x direction 
-    int8_t y_offset;	// Tile draw offset in y direction
-    int8_t z_offset;	// Tile draw offset in z direciton
-    char status;	    // Tile bit flag status (TBD)
-    vt_tile_t *next;	// A layer over the tile
+    /* vt_tile_t: represents the layers over a tile
+     *
+     * size: 16bytes (64bit arch)
+     * size: 12bytes (32bit arch)
+     */
+
+    // tileID to associate to, often the tileID is related
+    // to an Atlas/Spritesheet block
+    int16_t id;	      
+
+    // The layer offset (x,y,z) is used to position the
+    // layer content sligtly shifted from central location,
+    // for example if you want to move the floor up
+    // or a wall hanging light.
+    int16_t x_offset;
+    int16_t y_offset;
+    int8_t  z_offset;
+
+    // The layer status.
+    // Right now just 8 bit flags exits, we can extend
+    // if needed some ideas:
+    // WALKABLE      0x01  (you cannot move down this layer)
+    // SWIMABLE      0x02  (you can move down and up if you know how to swim)
+    // FLYABLE       0x04  (you will move down if do not have fly ability)
+    // JUMPABLE      0x08  (you can cross jumping but not walking ??? )
+    // TRANSFORMABLE 0x10  (you can change, grass can be cut, hidden walls opened)
+    // ...           0x20
+    //               0x40
+    //               0x80
+    char status[1];
+
+    // Points to another layer over the actual tile
+    // that is useful if you need to add more objects
+    // or textures over the same tile, here the offset
+    // comes handy to add some "noise" in the placement
+    // of common materials.
+    vt_tile_t *next;
 } vt_tile_t;
 ```
-The *vt_tile_t* has 16 bits left for anything else
 
 ```
 
@@ -215,18 +245,31 @@ Another datastructure idea
 
 ```
 typedef struct vt_map_t {
-    int16_t id;                       // Map id
-    int16_t dx;                       // Size of each tile in X direction
-    int16_t dy;                       // Size of each tile in Y direction
-    int16_t dz;                       // Size of each tile in Z direction
-    int32_t nx;                       // number of tiles in X direction
-    int32_t ny;                       // number ot tiles in Y direction
-    int32_t nz;                       // number of tiles in Z direction
-    int32_t x0;                       // Origin x
-    int32_t y0;                       // Origin y
-    int32_t z0;                       // Origin z
-    char name[256];                   // A friendly map name 
-    vt_tile_t tile[1000][1000][100];  // The map chunk max size (100M tiles)
+    // Map origin regarding the **WORLD**
+    int32_t x0;
+    int32_t y0;
+    int32_t z0;
+
+    // Grid size of this map in (x,y,z) directions
+    // No single map is bigger than 65535 in any 
+    // direction, if it is, you should split it.
+    int16_t nx;
+    int16_t ny;
+    int16_t nz;
+
+    // Size of tile in (x,y,z) directions
+    int16_t dx;
+    int16_t dy;
+    int16_t dz;
+
+    // Map unique ID (UID)
+    int16_t uid;
+    // Map unique name (can be accessed by name too)
+    // 256 - 2 for better packing
+    char name[254];
+
+    // Tile data 190MB uncompressed
+    vt_tile_t tile[500][500][50];
 } vt_map_t;
 ```
 
