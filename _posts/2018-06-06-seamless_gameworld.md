@@ -5,6 +5,24 @@ date: 2018-06-06
 author: "Igor Morgado"
 ---
 
+## Table of contents
+
+* [Introduction](#introduction)
+* [Motivation](#motivation)
+   * [A grid world](#a-grid-world)
+   * [THE Grid world](#the-grid-world)
+   * [A bonding window](#a-bonding-window)
+   * [Slicing the grid](#slicing-the-grid)
+   * [Getting to the border](#getting-to-the-border)
+* [Infinity](#infinity)
+* [Going 3D](#going-3d)
+* [The WORLD tile](#the-world-tile)
+* [The datastructure](#the-datastructure)
+* [Results](#results)
+* [Conclusions](#conclusions)
+* [Questions](#questions)
+
+
 ## Introduction
 
 One of my passions is gaming, with electronic gaming (video games) and board games being on top of the gaming class. From a long time I have spend days drafting about game engines, game design and game programming. 
