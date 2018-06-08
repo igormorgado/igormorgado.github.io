@@ -367,7 +367,6 @@ figure.center {
 
 figure.center img {
   border: 1px solid var(--selection-background);
-  border-radius: 45%;
   padding: 5px;
   width: 100%;
 }
