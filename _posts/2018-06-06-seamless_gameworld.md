@@ -139,7 +139,7 @@ And one amazing thing, no matter where the player is, it never touches more than
 
 Another important aspect is the coordinate system. There is no local coordinate system, the coordinates are absolute based in the whole map, being (0,0) a map orgin, maps connected in boundaries have their coordinates summed as we can see in *figure 11*.
 
-{% include image.html url="/images/gameworld1/mapcoords.png" description="Figure 11: Shows the grid coordinates on boundaries. There is no local map file coordinates, all coordinates are absolute to the **WORLD**." %}
+{% include image.html url="/images/gameworld1/mapcoords.png" description="Figure 11: Shows the grid coordinates on boundaries. There is no local map file coordinates, all coordinates are absolute to the <strong>WORLD</strong>." %}
 
 ### Getting to the border
 
@@ -155,10 +155,54 @@ The same concepts of a 2D grid can be applied to the 3D grid of the **WORLD**, t
 
 ## The WORLD tile
 
-Once we are set in how the **WORLD** is mapped
+Once we are set in how the **WORLD** is mapped we need to know what is stored in each one of those tiny blocks called **tiles**. 
+
+## The datastructure
+
+```
+typedef struct vt_map_t {
+    int16_t id;      // Map id
+    int16_t dx;      // Size of each tile in X direction
+    int16_t dy;      // Size of each tile in Y direction
+    int16_t dz;      // Size of each tile in Z direction
+    int32_t nx;      // number of tiles in X direction
+    int32_t ny;      // number ot tiles in Y direction
+    int32_t nz;      // number of tiles in Z direction
+    int32_t x0;      // Origin x
+    int32_t y0;      // Origin y
+    int32_t z0;      // Origin z
+    char name[256];  // A friendly map name (also can be searched upon
+    vt_tile_t *data; // The map data (size NX * NY * NZ)
+} vt_map_t;
+```
+The *vt_map_t* is nicely packed in 64bits or 32bits.
 
 
+```
+typedef struct vt_tile_t {
+    int16_t id;	      // Tile ID that represents a image tile
+    int8_t x_offset;	// Tile draw offset in x direction 
+    int8_t y_offset;	// Tile draw offset in y direction
+    int8_t z_offset;	// Tile draw offset in z direciton
+    char status;	    // Tile bit flag status (TBD)
+    char padding[2];  // useless padding. Need to reorganize;
+    vt_prop_t *prop;	// Props over the tile
+} vt_tile_t;
+```
+The *vt_tile_t* has 16 bits left for anything else
 
+```
+typedef struct vt_prop_t {
+    int16_t id;     	// Prop ID that represents a image
+    int8_t x_offset;	// Prop offset positioning in X dir
+    int8_t y_offset;	// Prop offset positioning in Y dir
+    int8_t z_offset;	// Prop offset positioning in Z dir
+    char     status;	// Prop bit flag status (TBD)
+    char padding[2];  // useless padding. Need to reorganize;
+    vt_prop_t *next;	// If more props in same tile, next
+} vt_prop_t;
+```
 
+The *vt_prop_t* has 16 bits left for anything else.
 
 
