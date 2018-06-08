@@ -121,7 +121,3 @@ When the player moves to another location, now represented by the blue square (g
 
 It's very important to notice that there was no need to read the whole area around the character, just the new content. How that content is organized (is matter to another article).
 
-
-
-
-
