@@ -101,7 +101,6 @@ For camparison while games like *Zelda* draw over a 2D grid as shown in figure 7
 
 We can think of the **WORLD** as a stack of 2D grids as shown on figure 8,
 
-{% include image.html url="/images/gameworld1/grid_over_grid.png" description="Figure 8: A stack of three 2D grids one over another.¨ %}
 
 But not limited to 3 grids, lets supose we pack 30 grids one over another as shown in *figure 9*.
 
