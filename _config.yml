@@ -2,10 +2,3 @@ name: Igor Morgado
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
-github_comments:
-  repo: igormorgado/igormorgado.github.io
-  branch: master
-  comment_template: comments.html
-  comments_template: comments.html
-
-
