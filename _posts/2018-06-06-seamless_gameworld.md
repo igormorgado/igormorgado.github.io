@@ -63,6 +63,10 @@ int map[16][11] = {
 
 If we make some associations for example *0* to the sand terrain, *2* to the green mountain, *3* anti diagonal green mountain, *5* diagonal mountain, *6* green rock, *7* dungeon hole and drawn in right places we have the map as imaged by the original designers.
 
+What is important to note is the player will never be between two zones as we imaged in *figure 5*
+
+{% include image.html url="/images/gameworld1/zelda_centered_x.png" description="Figure 5: Hipotethical and never ocurring situation in original Zelda game. The screen is NEVER centered on player, instead the player moves around the fixed screen." %}
+
 ### THE Grid world
 
 First things first, lets create our fictional game world and call it **WORLD**, everytime i use the bold captilized word **WORLD** I will be making reference to the definition that we will discuss now.
