@@ -22,7 +22,7 @@ When walking in a world few things are worse than loading screens, we can accept
 
 How can we create a huge game world (by huge I mean at least 100 sq. kilometers wide) and access it without loading, or at least with non noticiable load.
 
-The main concerns here are about **time to access** the data (must be done faster than user moves along the map), that would be simply solved if we load all map in memory, but that brings a second issue **memory limit**, how can we load a map that is bigger than memory itself?
+The main concerns here are about **time to access** the data, it must be done faster than user moves along the map, that would be simply solved if we load all map in memory, but that brings a second issue: **memory limit**, how can we load a map that is bigger than memory itself?
 
 
 ### A grid world
