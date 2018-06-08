@@ -117,6 +117,7 @@ But not limited to 3 grids, lets supose we pack 30 grids one over another as sho
    description="Figure 9: A 3d grid, every cell is related to a tile and is numbered based on (x,y,z) coordinate."
 %}
 
+
 In the 3D Grid the things get even bigger, and very fast since every new layer on top of a plane is alike a whole new map of equal size.
 
 
