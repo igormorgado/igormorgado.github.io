@@ -13,7 +13,7 @@ These days are long gone, and now I have started a personal project to write a r
 
 When talking about game genders action adventures with nice decision choices are my top choice. I enjoy walk through new worlds and see what is hidding in the next corner. What are the sick ideas in the mind of the designers.
 
-Most things are written here are still draft and are just an idea. No real implementations yet.
+Most things that are written here are still draft and are just an idea. No real implementations yet.
 
 
 ## Motivation
@@ -83,7 +83,7 @@ Even nowdays, many games take a mix of the two approaches where a larger than sc
 
 This approach makes things simpler since the programmer do not need to take care about objects dinamically getting in and out of memory. 
 
-We will try to take an approach more general but lets start do define some keyworkds
+We will try to take an approach more general but lets start do define some keywords
 
 ### THE Grid world
 
