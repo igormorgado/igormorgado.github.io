@@ -1,8 +1,20 @@
 
 \documentclass[12pt]{article}
+\usepackage{pdflscape}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=10mm,
+	top=10mm,
+}
+\usepackage{fontspec}
+\setmonofont[Mapping=tex-text]{Press Start 2P}
+
 \usepackage{tikz}
 \usetikzlibrary{positioning,arrows,patterns}
 \begin{document}
+\begin{landscape}
 \pagestyle{empty}
 
 
@@ -204,8 +216,7 @@
 \newpage
 
 
-\begin{tikzpicture}[scale=2,on grid, label distance=0.01mm]
-	% Bottom of cube
+\begin{tikzpicture}[scale=2,on grid, label distance=0.01mm,y=-1cm]
 	\begin{scope}[every node/.append style={yslant=0.5,xslant=-1},yslant=0.5,xslant=-1 ]
 		\draw[step=0.5mm, black!20,very thin] (0,0) grid (3,3);
 		\draw[step=10mm, black] (0,0) grid (3,3);
@@ -245,4 +256,38 @@
 
 	\end{scope}
 \end{tikzpicture}
-\end{document} 
+
+\newpage
+
+\begin{tikzpicture}[y=-1cm, every node/.style={font=\ttfamily}]
+	\draw[thick,black!70] (0,0) grid (6,6);
+	\foreach \x in {0,1,...,5} {
+		\foreach \y in {0,1,...,5} {
+			\node (node) [label={[xshift=.5cm,yshift=-1cm]:{\scriptsize \x,\y}}] at (\x, \y) {};
+		}
+	}
+	\draw[->,thick] (0,0) -- (7,0);
+	\node (x) [label={below left:{X}}] at (7,0) {};
+	\draw[->,thick] (0,0) -- (0,7);
+	\node (y) [label={above right:Y}] at (0,7) {};
+
+	\draw [->,line width=3mm,blue!70] (6.5,3) [out=30, in=150] to (8.5,3);
+
+	\begin{scope}[xshift=16cm,yslant=0.5, xslant=-1,rotate=-90,
+			every node/.append style={yslant=0.5,xslant=-1,rotate=-45} ]
+		\draw[thick,black!70] (0,0) grid (6,6);
+	\foreach \x in {0,1,...,5} {
+		\foreach \y in {0,1,...,5} {
+			\node (node) [label={[yshift=-1.2cm]:{\scriptsize \x,\y}}] at (\x, \y) {};
+		}
+	}
+
+	\draw[->,thick] (0,0) -- (7,0);
+	\node (x) [label={left:{X}}] at (7,0) {};
+	\draw[->,thick] (0,0) -- (0,7);
+	\node (y) [label={below right:Y}] at (0,7) {};
+	\end{scope}
+\end{tikzpicture}
+
+\end{landscape}
+\end{document}

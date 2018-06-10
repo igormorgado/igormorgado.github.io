@@ -175,7 +175,14 @@ The same concepts of a 2D grid can be applied to the 3D grid of the **WORLD**, t
 
 ## The WORLD tile
 
-Once we are set in how the **WORLD** is mapped we need to know what is stored in each one of those tiny blocks called **tiles**. Lets go back to our *Zelda* game (another location just for fun), 
+Once we are set in how the **WORLD** is mapped we need to know what is stored in each one of those tiny blocks called **tiles**. Lets go back to our *Zelda* game (another location just for fun) in our *figure 12*. Each game "square" has e direct equivalence with a matrix position and value. 
+
+{% include image.html url="/images/gameworld1/level2q1_room_grid.jpg" description="Figure 12: It shows a Zelda dungeon map. The red grid shows the divisions between each squared tile" %}
+
+That values also represent walkable or non-walkable squares or tiles, you can think of any tile with a
+
+{% include image.html url="/images/gameworld1/grid_transform.png" description="Figure EXTRA: It shows the grid coordinates from regular to axonometric grid" %}
+
 
 1. Describe  the tiles and props over the tile. 
 
