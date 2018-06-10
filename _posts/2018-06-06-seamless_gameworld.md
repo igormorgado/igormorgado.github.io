@@ -178,12 +178,24 @@ Once we are set in how the **WORLD** is mapped we need to know what is stored in
 
 {% include image.html url="/images/gameworld1/level2q1_room_grid.jpg" description="Figure 12: It shows a Zelda dungeon map. The red grid shows the divisions between each squared tile" %}
 
-Each tile has a value, for example the 
-That values also represent walkable or non-walkable squares or tiles, you can think of any tile with a
+Let's say for sake of example that the following table shows the tiles and its equivalence with a number
 
-{% include image.html url="/images/gameworld1/grid_transform.png" description="Figure EXTRA: It shows the grid coordinates from regular to axonometric grid" %}
+|--------|----------------------------------------------------------------|
+| Number |                            Tile                                |
+|--------|----------------------------------------------------------------|
+| 1      | ![floor](/images/gameworld1/floor_walk_1.jpg)                  |
+| 11     | ![pillar](/images/gameworld1/floor_block_1.jpg)                |
+| 13     | ![north lower wall 1](/images/gameworld1/wall_lower_1.jpg)     |
+| 14     | ![north upper wall 1](/images/gameworld1/wall_upper_1.jpg)     |
+| 15     | ![east close door](/images/gameworld1/door_close_1.jpg)        |
+| 16     | ![east close door wall](/images/gameworld1/door_close_2.jpg)   |
+|--------|----------------------------------------------------------------|
 
-texto [floor](/images/gameworld1/floor_walk_1.jpg) ![pillar](/images/gameworld1/floor_block_1.jpg) ![north lower wall 1](/images/gameworld1/wall_lower_1.jpg) ![north upper wall 1](/images/gameworld1/wall_upper_1.jpg) ![east close door](/images/gameworld1/door_close_1.jpg) ![east close door wall](/images/gameworld1/door_close_2.jpg) final
+If we map our world starting in top-left position (as we can see in the left side on  *figure 13*), and moving the $x$ coordinate to left and th $y$ coordinate down, we can say that position $(11,4)$ on the matrix representing this map contains the number $11$. And was not totaly by coincidence I have choosen numbers below 10 to **walkable** tiles, and values above *10* to non walkable tiles. Of course this additional information could be stored somewhere else, for example another associated map containing only $0$ and $1$ where $0$ is walkable path, and $1$ is non walkable path, it is also a valid approach, this map is called **collision map** and is a fast way to know if the player can walk or not for a region since is often small (1 bit only) per tile. A third approach is *pack* the collision map inside the regular map, for example the first/last bit is the collision, for a 8 bit system it turns numbers above or equal 127 collidable, and numbers below 126 non collidable. 
+
+{% include image.html url="/images/gameworld1/grid_transform.png" description="Figure 13: On left it shows the cartesian coordinates starting in top left. At right it shows the grid on axonometric grid. The arrow denotes a equivalence between both projection methods (we will discuss this in another paper" %}
+
+
 
 1. Describe  the tiles and props over the tile. 
 
