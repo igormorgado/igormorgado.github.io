@@ -3,6 +3,7 @@ layout: post
 title: "Seamless game world"
 date: 2018-06-06
 author: "Igor Morgado"
+math: true
 ---
 
 
@@ -193,13 +194,11 @@ Let's say for sake of example that the following table shows the tiles and its e
 
 If we map our world starting in top-left position (as we can see in the left side on  *figure 13*), and moving the $x$ coordinate to left and th $y$ coordinate down, we can say that position $(11,4)$ on the matrix representing this map contains the number $11$. And was not totaly by coincidence I have choosen numbers below 10 to **walkable** tiles, and values above *10* to non walkable tiles. Of course this additional information could be stored somewhere else, for example another associated map containing only $$0$$ and $$1$$ where $$0$$ is walkable path, and $1$ is non walkable path, it is also a valid approach, this map is called **collision map** and is a fast way to know if the player can walk or not for a region since is often small (1 bit only) per tile. A third approach is *pack* the collision map inside the regular map, for example the first/last bit is the collision, for a 8 bit system it turns numbers above or equal 127 collidable, and numbers below 126 non collidable. 
 
-{% include image.html url="/images/gameworld1/grid_transform.png" description="Figure 13: On left it shows the cartesian coordinates starting in top left. At right it shows the grid on axonometric grid. The arrow denotes a equivalence between both projection methods (we will discuss this in another paper" %}
+{% include image.html url="/images/gameworld1/grid_transform.png" description="Figure 13: On left it shows the cartesian coordinates starting in top left. At right it shows the axonometric grid. The arrow denotes a equivalence between both projection methods (we will discuss this in another paper" %}
+
+But more complicated games could have more information in a single tile
 
 
-
-1. Describe  the tiles and props over the tile. 
-
-2. Examples with Zelda and other games.
 
 3. The tile structure and placement
 
