@@ -183,12 +183,12 @@ That values also represent walkable or non-walkable squares or tiles, you can th
 
 {% include image.html url="/images/gameworld1/grid_transform.png" description="Figure EXTRA: It shows the grid coordinates from regular to axonometric grid" %}
 
-[floor](floor_walk_1.jpg)
-[pillar](floor_block_1.jpg)
-[north lower wall 1](wall_lower_1.jpg)
-[north upper wall 1](wall_upper_1.jpg)
-[east close door](door_close_1.jpg)
-[east close door wall](door_close_2.jpg)
+![floor](floor_walk_1.jpg)
+![pillar](floor_block_1.jpg)
+![north lower wall 1](wall_lower_1.jpg)
+![north upper wall 1](wall_upper_1.jpg)
+![east close door](door_close_1.jpg)
+![east close door wall](door_close_2.jpg)
 
 1. Describe  the tiles and props over the tile. 
 
