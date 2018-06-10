@@ -178,10 +178,17 @@ Once we are set in how the **WORLD** is mapped we need to know what is stored in
 
 {% include image.html url="/images/gameworld1/level2q1_room_grid.jpg" description="Figure 12: It shows a Zelda dungeon map. The red grid shows the divisions between each squared tile" %}
 
+Each tile has a value, for example the 
 That values also represent walkable or non-walkable squares or tiles, you can think of any tile with a
 
 {% include image.html url="/images/gameworld1/grid_transform.png" description="Figure EXTRA: It shows the grid coordinates from regular to axonometric grid" %}
 
+[floor](floor_walk_1.jpg)
+[pillar](floor_block_1.jpg)
+[north lower wall 1](wall_lower_1.jpg)
+[north upper wall 1](wall_upper_1.jpg)
+[east close door](door_close_1.jpg)
+[east close door wall](door_close_2.jpg)
 
 1. Describe  the tiles and props over the tile. 
 
