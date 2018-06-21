@@ -323,14 +323,6 @@ Also, maybe pack the tile and prop values into a small pack as defined in [Bit p
 
 Need to test stuff not just chitchat and add some data
 
-| ID  | Field   | Data   |
-|-----|:-------:|-------:|
-|  1  | Group 1 | 0.2123 |
-|  2  | Group 2 | 0      |
-|  3  | Group 3 | 1      |
-|  4  | Group 4 | 13     |
-|  5  | Group 5 | 145    |
-|  6  | Group 6 | 10.2   |
 
 ## Conclusions
 
