@@ -1,6 +1,6 @@
 ---
 layout: default
-title: fer.mat.br
+title: Minha pagina de entrada
 ---
 <div class="body">
   <header>
@@ -15,13 +15,13 @@ title: fer.mat.br
 
   <div lang="en">
     <p>
-    <em>Pierre de Fermat</em> was a mathematician and lawyer. Most 
+    <em>Pierre de Fermat</em> was a mathematician and lawyer. Most
     famous for what he didn't did, the "Fermat's last therorem". That states:
-    </p> 
+    </p>
 
     <blockquote class="classic" >
       <p>
-      There aren't any set of positive integers <em>x, y, z and n</em> with 
+      There aren't any set of positive integers <em>x, y, z and n</em> with
       <em>n</em> bigger than 2 that satisfies the equation.
       </p>
 
@@ -49,10 +49,10 @@ title: fer.mat.br
 
     <blockquote class="classic">
       <p>
-      Cubum autem in duos cubos, aut quadratoquadratum in duos 
-      quadratosquadratos, et generaliter nullam in infinitum ultra 
-      quadratum potestatem in duos ejusdem nominis fas est dividere: 
-      cujus rei demonstrationem mirabilem sane detexi. Hanc marginis 
+      Cubum autem in duos cubos, aut quadratoquadratum in duos
+      quadratosquadratos, et generaliter nullam in infinitum ultra
+      quadratum potestatem in duos ejusdem nominis fas est dividere:
+      cujus rei demonstrationem mirabilem sane detexi. Hanc marginis
       exiguitas non caperet.
       </p>
       <span>&nbsp;</span>
@@ -70,8 +70,8 @@ title: fer.mat.br
     </p>
 
     <p>
-    And about me? I did nothing. But you can check my workings in 
-    <a href="http://github.com/igormorgado/">my GitHub page</a>. The ones 
+    And about me? I did nothing. But you can check my workings in
+    <a href="http://github.com/igormorgado/">my GitHub page</a>. The ones
     I'm most proud of are (in no special order):
     </p>
 
@@ -172,7 +172,7 @@ title: fer.mat.br
     </p>
 
     <p>
-    012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 
+    012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789 012345789
     </p>
     <p>
     Integer eros elit, convallis non quam non, ultrices facilisis arcu. Cras eu sapien auctor arcu suscipit laoreet. Pellentesque vitae congue diam, quis gravida justo. Nullam at odio nisl. Sed at rutrum mi, non bibendum augue. Morbi ornare finibus interdum. Nunc erat nulla, faucibus in venenatis eget, scelerisque eu nisl. Cras placerat eget leo eu dapibus. In faucibus magna lorem, vitae ultrices justo convallis quis.
@@ -209,7 +209,7 @@ int main(int argc, char *argv[])
 
     /* Create the source */
     ricker_wavelet *wavelet = ricker__create(ap-&gt;frequency);
-    ricker_source  *source  = ricker__model(wavelet, ap-&gt;sx, ap-&gt;sz, ap-&gt;sd); 
+    ricker_source  *source  = ricker__model(wavelet, ap-&gt;sx, ap-&gt;sz, ap-&gt;sd);
 
     /* Create simulation */
     simulation_params *simulation = simulation__create();
@@ -233,8 +233,8 @@ int main(int argc, char *argv[])
     wavefield *P = wavefield__create(model-&gt;nx, model-&gt;nz);
 
     /* Pre calculate  Laplacian parameters */
-    laplacian_params *lp = wavefield__laplacian_params(model, 
-                                                       ap-&gt;order, 
+    laplacian_params *lp = wavefield__laplacian_params(model,
+                                                       ap-&gt;order,
                                                        simulation-&gt;dt);
 
     /* Iterate timesteps */
@@ -263,7 +263,7 @@ int main(int argc, char *argv[])
     }
 
     if(verbose)
-        fprintf(stderr, "xmovie n1=%zu n2=%zu d1=%lf d2=%lf clip=0.5 loop=2\n", 
+        fprintf(stderr, "xmovie n1=%zu n2=%zu d1=%lf d2=%lf clip=0.5 loop=2\n",
                 ap-&gt;nx, ap-&gt;nz, ap-&gt;dx, ap-&gt;dz);
 
     fflush(stderr);
