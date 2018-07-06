@@ -243,8 +243,11 @@ table tbody tr:hover {
 /*************************************************** 
  * Navigation and footer
  ***************************************************/
-nav {
+section #mainnav {
   border-bottom: 2px solid var(--invisibles);
+}
+
+nav {
   margin-bottom: 1em;
 }
 
