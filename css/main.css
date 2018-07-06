@@ -495,12 +495,11 @@ div.post p img {
  * MEDIA
  */
 
-@media screen and (orientation:portrait) {
   /*
+@media screen and (orientation:portrait) {
   html {
     font-size: 27px; 
   }
-  */
 
   body {
     margin: .75em auto;
@@ -509,6 +508,22 @@ div.post p img {
     padding-right: 1em;
   }  
 }
+
+  */
+@media screen and (min-resolution: 150dpi) {
+  html {
+    font-size: 27px; 
+  }
+
+  body {
+    margin: .75em auto;
+    max-width: none;
+    padding-left: 1em;
+    padding-right: 1em;
+  }  
+}
+
+
 
 /*
 @media screen and (min-resolution: 150dpi) {
