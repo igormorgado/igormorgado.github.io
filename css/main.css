@@ -517,7 +517,7 @@ div.post p img {
 
   body {
     margin: .75em auto;
-    max-width: none;
+    /* max-width: none; */
     padding-left: 1em;
     padding-right: 1em;
   }  
