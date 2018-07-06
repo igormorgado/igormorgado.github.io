@@ -41,19 +41,18 @@
     </footer>
 
     <script>
-      var url = new URL(window.location.href);
-      var localhost = url.host;
-      var nightmode = url.searchParams.get("nightmode");
-      var checkEl = document.getElementById("nightmodeToggle");
-      if (nightmode == "true") {
-        checkEl.checked = true;
+      function activateNightmode() {
         var link = document.createElement( "link" );
         link.href = "/css/base16-solarizeddark.css"
         link.type = "text/css";
         link.rel = "stylesheet";
         document.getElementsByTagName("head")[0].appendChild(link);
+      }
 
-      
+      function  replaceLocalHref() {
+        var url = new URL(window.location.href);
+        var localhost = url.host;
+
       	aEls = document.body.getElementsByTagName("a");
       	for(var i=0; i< aEls.length; i++) {
       		var turl = new URL(aEls[i].href);
@@ -61,8 +60,16 @@
       		if (host == localhost) {
       			turl.searchParams.set("nightmode","true");
       			aEls[i].href = turl.href;
-      		}
-      	}
+          }
+        }
+
+      var url = new URL(window.location.href);
+      var nightmode = url.searchParams.get("nightmode");
+      var checkEl = document.getElementById("nightmodeToggle");
+      if (nightmode == "true") {
+        checkEl.checked = true;
+        activateNightmode();
+        replaceLocalHref();
       }
     </script>
   </body>
