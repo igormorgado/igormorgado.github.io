@@ -496,9 +496,11 @@ div.post p img {
  */
 
 @media screen and (orientation:portrait) {
+  /*
   html {
     font-size: 27px; 
   }
+  */
 
   body {
     margin: .75em auto;
