@@ -1,38 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>{{ page.title }}</title>
-		<link rel="stylesheet" type="text/css" href="/css/reset.css">
+  <head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
     <script async src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     {% if page.math %}
     <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML"></script>
     {% endif %}
-		<link rel="stylesheet" type="text/css" href="/css/cmu.css">
+    <link rel="stylesheet" type="text/css" href="/css/cmu.css">
     <link rel="stylesheet" type="text/css" href="/css/base16-grey.css">
     <link rel="stylesheet" type="text/css" href="/css/prettify-base16.css">
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  </head>
+  <body>
     <section id="mainnav">
-		<nav>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="/cv">CV</a></li>
-				<li><a href="/blog">Blog</a></li>
-			</ul>
-		</nav>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/cv">CV</a></li>
+          <li><a href="/blog">Blog</a></li>
+        </ul>
+      </nav>
     </section>
     <section id="content">
 
-			{{ content }}
+      {{ content }}
 
     </section>
-		<footer>
-			<ul>
-				<li><a href="mailto:morgado.igor@gmail.com">email</a></li>
-				<li><a href="https://github.com/igormorgado">github.com/igormorgado</a></li>
-			</ul>
-		</footer>
-	</body>
+    <footer>
+      <ul>
+        <li><a href="mailto:morgado.igor@gmail.com">email</a></li>
+        <li><a href="https://github.com/igormorgado">github.com/igormorgado</a></li>
+      </ul>
+    </footer>
+
+    <script>
+      var url = new URL(window.location.href);
+      var localhost = url.host;
+      var nightmode = url.searchParams.get("nightmode");
+      if (nightmode == "true") {
+        var link = document.createElement( "link" );
+        link.href = "/css/base16-solarizeddark.css"
+        link.type = "text/css";
+        link.rel = "stylesheet";
+        document.getElementsByTagName("head")[0].appendChild(link);
+      }
+      
+      aEls = document.body.getElementsByTagName("a");
+      for(var i=0; i< aEls.length; i++) {
+        var turl = new URL(aEls[i].href);
+        var host = turl.host
+        if (host == localhost) {
+          turl.searchParams.set("nightmode","true");
+        } else {
+          turl.searchParams.delete("nightmode");
+        }
+        aEls[i].href = turl.href;
+      }
+    </script>
+  </body>
+
 </html>
