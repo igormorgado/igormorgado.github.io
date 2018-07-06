@@ -68,11 +68,15 @@
         var status = checkboxElem.checked;
 
         if (status == false) {
-          // make it false
-          console.log(status);
-        } else {
+          console.log("It was " + status);
+          checkboxElem.checked = true;
           activateNightmode();
           replaceLocalHref();
+          console.log("Now it is " + status);
+        } else {
+          console.log("It was " + status);
+          checkboxElem.checked = false;
+          console.log("Now it is " + status);
         }
       }
     
