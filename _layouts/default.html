@@ -23,7 +23,7 @@
         </ul>
       </nav>
     <label class="switch">
-      <input type="checkbox" id="nightmodeToggle">
+      <input type="checkbox" id="nightmodeSwitch" onchange="nightmodeToggle(this)">
       <span class="slider"></span>
     </label>
     </section>
@@ -64,11 +64,23 @@
         }
       }
 
+      function nightmodeToggle(checkboxElem) {
+        var status = checkboxElem.checked;
+
+        if (status == false) {
+          // Make it true
+          console.log(status);
+        } else {
+          // make it false
+          console.log(status);
+        }
+      }
+    
       var url = new URL(window.location.href);
       var nightmode = url.searchParams.get("nightmode");
-      var checkEl = document.getElementById("nightmodeToggle");
+      var nightmodeSwitch = document.getElementById("nightmodeSwitch");
       if (nightmode == "true") {
-        checkEl.checked = true;
+        nightmodeSwitch.checked = true;
         activateNightmode();
         replaceLocalHref();
       }
