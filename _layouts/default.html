@@ -44,15 +44,15 @@
       var url = new URL(window.location.href);
       var localhost = url.host;
       var nightmode = url.searchParams.get("nightmode");
+      var checkEl = document.getElementById("nightmodeToggle");
       if (nightmode == "true") {
+        checkEl.checked = true;
         var link = document.createElement( "link" );
         link.href = "/css/base16-solarizeddark.css"
         link.type = "text/css";
         link.rel = "stylesheet";
         document.getElementsByTagName("head")[0].appendChild(link);
 
-        var checkEl = document.getElementById("nightmodeToggle");
-        checkEl.checked = true;
       
       	aEls = document.body.getElementsByTagName("a");
       	for(var i=0; i< aEls.length; i++) {
