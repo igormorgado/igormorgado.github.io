@@ -23,7 +23,7 @@
         </ul>
       </nav>
     <label class="switch">
-      <input type="checkbox">
+      <input type="checkbox" id="nightmodeToogle">
       <span class="slider"></span>
     </label>
     </section>
@@ -50,6 +50,9 @@
         link.type = "text/css";
         link.rel = "stylesheet";
         document.getElementsByTagName("head")[0].appendChild(link);
+
+        var checkEl = document.getElementById("nightmodeToggle");
+        checkEl.checked = true;
       
       	aEls = document.body.getElementsByTagName("a");
       	for(var i=0; i< aEls.length; i++) {
