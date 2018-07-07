@@ -83,7 +83,7 @@ Afirmam os ímpios que o disparate é normal na Biblioteca e que o razoável (e 
 
 Essas palavras, que não apenas denunciam a desordem mas que também a exemplificam, provam, evidentemente, seu gosto péssimo e sua desesperada ignorância. De fato, a Biblioteca inclui todas as estruturas verbais, todas as variantes que permitem os vinte e cinco símbolos ortográficos, porém nem um único disparate absoluto. Inútil observar que o melhor volume dos muitos hexágonos que administro intitula-se Trono Penteado, e outro A Cãibra de Gesso e outro Axaxaxas mlö.
 
-Essas proposições, à primeira vista incoerentes, sem dúvida são passíveis de uma justificativa criptográfica ou alegórica; essa justificativa é verbal e, ex hypothesi, já figura na Biblioteca. Não posso combinar certos biblioteca-de-babel-3caracteres que a divina Biblioteca não tenha previsto e que em alguma de suas línguas secretas não contenham um terrível sentido. Ninguém pode articular uma sílaba que não esteja cheia de ternuras e de temores; que não seja em alguma dessas linguagens o nome poderoso de um deus. Falar é incorrer em tautologias.
+Essas proposições, à primeira vista incoerentes, sem dúvida são passíveis de uma justificativa criptográfica ou alegórica; essa justificativa é verbal e, ex hypothesi, já figura na Biblioteca. Não posso combinar certos caracteres que a divina Biblioteca não tenha previsto e que em alguma de suas línguas secretas não contenham um terrível sentido. Ninguém pode articular uma sílaba que não esteja cheia de ternuras e de temores; que não seja em alguma dessas linguagens o nome poderoso de um deus. Falar é incorrer em tautologias.
 
 ![biblioteca-de-babel-3](/images/babel/biblioteca-de-babel-3.jpg)
 
