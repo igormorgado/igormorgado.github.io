@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paradoxo da Tolerancia"
+title: "Paradoxo da Tolerância"
 date: 2019-01-31
 author: "Karl Popper"
 math: false
