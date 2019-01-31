@@ -2,7 +2,7 @@
 layout: post
 title: "Paradoxo da Tolerancia"
 date: 2019-01-31
-author: "Igor Morgado"
+author: "Karl Popper"
 math: false
 ---
 
