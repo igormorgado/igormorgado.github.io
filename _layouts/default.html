@@ -35,7 +35,7 @@
     </section>
     <footer>
       <ul>
-        <li><a href="mailto:morgado.ior@gmail.com">email</a></li>
+        <li><a href="mailto:morgado%DOT%igor@gmail.com">email</a></li>
         <li><a href="https://github.com/igormorgado">github.com/igormorgado</a></li>
       </ul>
     </footer>
@@ -65,6 +65,9 @@
       }
 
       function nightmodeToggle(checkboxElem) {
+        /* When the function is called the status is already changed
+           therefore we need to do the oposite
+        */
         var status = checkboxElem.checked;
 
         if (status == false) {
